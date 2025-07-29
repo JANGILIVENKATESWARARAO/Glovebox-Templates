@@ -1,0 +1,10 @@
+select {
+  padding: 5px 40px 5px 10px; 
+  appearance: none;
+  -webkit-appearance: none; 
+  background: url('/Logoes/down.png') no-repeat right 10px center;
+  background-color: white;
+  background-size: 16px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
