@@ -15,11 +15,21 @@ import { app } from '../../server';
 import { AboutParkway1Component } from './about-parkway-1/about-parkway-1.component';
 import { MobilityService1Component } from './mobility-service-1/mobility-service-1.component';
 import { VechicalServices2Component } from './vechical-services-2/vechical-services-2.component';
+import { Banner1Component } from './banner1/banner1.component';
+import { Banner2Component } from './banner2/banner2.component';
+import { Banner3Component } from './banner3/banner3.component';
+import { Motability1Component } from './motability1/motability1.component';
+import { Motability2Component } from './motability2/motability2.component';
+import { Footer1Component } from './footer1/footer1.component';
+import { Footer2Component } from './footer2/footer2.component';
+import { Footer3Component } from './footer3/footer3.component';
+import { Template1Component } from './template1/template1.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HeaderComponent,Header2Component,Header3Component,Header4Component,Page1Component, FontAwesomeModule,FindYourCar1Component,FindYourCar2Component,TrustedBrand1Component,TrustedBrand2Component,VehicalsServices1Component,AboutParkway1Component,MobilityService1Component,VechicalServices2Component],
+  imports: [RouterOutlet, HeaderComponent, Template1Component, Header2Component, Header3Component, Header4Component, Page1Component, FontAwesomeModule, FindYourCar1Component, FindYourCar2Component, TrustedBrand1Component, TrustedBrand2Component, VehicalsServices1Component, AboutParkway1Component, MobilityService1Component, VechicalServices2Component, Banner1Component, Banner2Component, Banner3Component, Motability1Component, Motability2Component, Footer1Component, Footer2Component, Footer3Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
