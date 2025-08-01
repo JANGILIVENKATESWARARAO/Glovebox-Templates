@@ -24,12 +24,14 @@ import { Footer1Component } from './footer1/footer1.component';
 import { Footer2Component } from './footer2/footer2.component';
 import { Footer3Component } from './footer3/footer3.component';
 import { Template1Component } from './template1/template1.component';
+import { FaqComponent } from './faq/faq.component';
+import { MotabilityheroComponent } from './motabilityhero/motabilityhero.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, Template1Component, Header2Component, Header3Component, Header4Component, Page1Component, FontAwesomeModule, FindYourCar1Component, FindYourCar2Component, TrustedBrand1Component, TrustedBrand2Component, VehicalsServices1Component, AboutParkway1Component, MobilityService1Component, VechicalServices2Component, Banner1Component, Banner2Component, Banner3Component, Motability1Component, Motability2Component, Footer1Component, Footer2Component, Footer3Component],
+  imports: [RouterOutlet, HeaderComponent, Template1Component, Header2Component, Header3Component, Header4Component, Page1Component, FontAwesomeModule, FindYourCar1Component, FindYourCar2Component, TrustedBrand1Component, TrustedBrand2Component, VehicalsServices1Component, AboutParkway1Component, MobilityService1Component, VechicalServices2Component, Banner1Component, Banner2Component, Banner3Component, Motability1Component, Motability2Component, Footer1Component, Footer2Component, Footer3Component,FaqComponent,MotabilityheroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
