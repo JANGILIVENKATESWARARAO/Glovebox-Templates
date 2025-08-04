@@ -31,13 +31,15 @@ import { Landingpage3Component } from './landingpage3/landingpage3.component';
 import { Landingpage5Component } from './landingpage5/landingpage5.component';
 import { Landingpage6Component } from './landingpage-6/landingpage-6.component';
 import { AboutParkway2Component } from './about-parkway-2/about-parkway-2.component';
+import { Footer4Component } from './footer4/footer4.component';
+
 
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage5Component,Landingpage6Component,AboutParkway2Component,Footer1Component],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage5Component,Landingpage6Component,AboutParkway2Component,Footer1Component,Banner3Component,Footer4Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
