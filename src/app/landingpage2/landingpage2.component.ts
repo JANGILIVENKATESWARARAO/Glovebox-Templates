@@ -14,7 +14,7 @@ import { Footer3Component } from '../footer3/footer3.component';
 @Component({
   selector: 'app-landingpage2',
   standalone: true,
-  imports: [Header3Component,Banner3Component,TrustedBrand1Component,Motability2Component,VechicalServices2Component,AboutParkway1Component,Footer3Component],
+  imports: [Header3Component,Banner3Component,TrustedBrand1Component,Motability2Component,VechicalServices2Component,AboutParkway2Component,Footer3Component],
   templateUrl: './landingpage2.component.html',
   styleUrl: './landingpage2.component.css'
 })

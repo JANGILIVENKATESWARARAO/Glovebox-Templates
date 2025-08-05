@@ -7,11 +7,12 @@ import { Motability2Component } from '../motability2/motability2.component';
 import { VehicalsServices1Component } from '../vehicals-services-1/vehicals-services-1.component';
 import { AboutParkway1Component } from '../about-parkway-1/about-parkway-1.component';
 import { Footer2Component } from '../footer2/footer2.component';
+import { AboutParkway3Component } from '../about-parkway-3/about-parkway-3.component';
 
 @Component({
   selector: 'app-landingpage3',
   standalone: true,
-  imports: [Header3Component,Banner1Component,FindYourCar1Component,TrustedBrand1Component,Motability2Component,VehicalsServices1Component,AboutParkway1Component,Footer2Component],
+  imports: [Header3Component,Banner1Component,FindYourCar1Component,TrustedBrand1Component,Motability2Component,VehicalsServices1Component,AboutParkway3Component,Footer2Component],
   templateUrl: './landingpage3.component.html',
   styleUrl: './landingpage3.component.css'
 })
