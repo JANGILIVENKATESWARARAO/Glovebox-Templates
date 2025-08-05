@@ -36,10 +36,12 @@ import { Footer4Component } from './footer4/footer4.component';
 
 
 
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage5Component,Landingpage6Component,AboutParkway2Component,Footer1Component,Banner3Component,Footer4Component],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage5Component,Landingpage6Component,AboutParkway2Component,Footer1Component,Banner3Component,Footer1Component,Footer2Component,Footer4Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
