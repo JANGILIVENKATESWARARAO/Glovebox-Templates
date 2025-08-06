@@ -1,0 +1,154 @@
+<div class="min-h-screen flex items-center justify-center bg-[#1e1e1e] p-4">
+  <div class="bg-white rounded-xl shadow-md flex flex-col lg:flex-row w-full max-w-[1168px] h-[797px] ">
+    
+    <!-- Left: Car Info -->
+    <div class="lg:w-1/2  rounded-t-xl lg:rounded-l-xl lg:rounded-tr-none h-[655px] w-[579px]">
+      <img src="Logoes/enquirypicanto.png" alt="Kia Picanto" class="w-full w-[579px] h-[417px] p-2" />
+      <div class=" py-4 px-6 mx-2 h-[222px] gap-[13px] border rounded py-4">
+        
+        <div class="">
+            <h2 class="text-xl font-bold text-[#0052CC] mb-1 h-[33px]">Kia Picanto</h2>
+        <div class="flex justify-between items-center h-[22px]">
+          <p class="text-sm text-[#0052CC] font-bold">1.0 5 5dr</p>
+          <p class="text-sm text-[#54585f] text-[14px] font-[Figtree]">REF: 668907</p>
+        </div>
+        </div>
+
+        <!-- Feature Blocks -->
+        <div class="grid grid-cols-3 gap-y-4 gap-x-4 text-sm text-gray-700 mt-6 h-[104px]">
+          <!-- Row 1 -->
+          <div class="flex items-start gap-2">
+            <img src="Logoes/enquiryIcon1.png" alt="Transmission" class="w-5 h-5 mt-2">
+            <div>
+              <p class="font-semibold">Transmission</p>
+              <p class="text-gray-500">Manual</p>
+            </div>
+          </div>
+
+          
+
+          <div class="flex items-start gap-2">
+            <img src="Logoes/enquiryIcon2.png" alt="Doors" class="w-5 h-5 mt-2">
+            <div>
+              <p class="font-semibold">Doors</p>
+              <p class="text-gray-500">5 Doors</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-2">
+            <img src="Logoes/enquiryIcon3.png" alt="Engine" class="w-5 h-5 mt-2">
+            <div>
+              <p class="font-semibold">Engine</p>
+              <p class="text-gray-500">1.2L</p>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="flex items-start gap-2">
+            <img src="Logoes/enquiryIcon4.png" alt="Body Style" class="w-5 h-5 mt-2">
+            <div>
+              <p class="font-semibold">Body style</p>
+              <p class="text-gray-500">Hatchback</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-2">
+            <img src="Logoes/enquiryIcon5.png" alt="Fuel" class="w-5 h-5 mt-2">
+            <div>
+              <p class="font-semibold">Fuel</p>
+              <p class="text-gray-500">Petrol</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-2">
+            <img src="Logoes/enquiryIcon6.png" alt="Seats" class="w-5 h-5 mt-2">
+            <div>
+              <p class="font-semibold">Seats</p>
+              <p class="text-gray-500">5</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Right: Enquiry Form -->
+     
+<div class="lg:w-1/2 p-3 h-[765px] w-[501px] border rounded my-2 mx-2 ">
+  <h2 class="text-xl font-bold mb-2  text-[30px] font-[Figtree]">Enquiry</h2>
+  <p class="text-sm text-gray-600 mb-4 text-[14px] ">Please fill in all of the required fields to submit an enquiry.</p>
+
+  <div class="space-y-4">
+
+    <!-- Subject -->
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+      <input type="text" placeholder="Enter Subject" class="w-full border rounded px-4 py-2 text-sm" />
+    </div>
+
+    <!-- First & Last Name -->
+    <div class="flex gap-4">
+      <div class="w-1/2">
+        <label class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+        <input type="text" placeholder="Enter First Name" class="w-full border rounded px-4 py-2 text-sm" />
+      </div>
+      <div class="w-1/2">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+        <input type="text" placeholder="Enter Last Name" class="w-full border rounded px-4 py-2 text-sm" />
+      </div>
+    </div>
+
+    <!-- Email & Mobile -->
+    <div class="flex gap-4">
+      <div class="w-1/2">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+        <input type="email" placeholder="Enter Email address" class="w-full border rounded px-4 py-2 text-sm" />
+      </div>
+      <div class="w-1/2">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Mobile Number</label>
+        <input type="text" placeholder="Enter Mobile number" class="w-full border rounded px-4 py-2 text-sm" />
+      </div>
+    </div>
+
+    <!-- Message -->
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Enquiry Details</label>
+      <textarea rows="3" placeholder="Enter Subject" class="w-full border rounded px-4 py-2 text-sm"></textarea>
+    </div>
+
+    <!-- Dealership -->
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Dealer</label>
+      <input type="text" value="Parkway Volkswagen Derby" class="w-full border rounded px-4 py-2 text-sm bg-gray-100 cursor-not-allowed" disabled />
+    </div>
+
+    <!-- Appointment Type -->
+    <p class="text-sm font-medium mt-2">What type of appointment would you like?</p>
+    <div class="flex gap-4">
+      <!-- Telephone -->
+      <div class="flex-1 border border-gray-300 rounded-lg p-3 cursor-pointer bg-[#1e2c40] text-white flex items-center gap-3 ">
+        <img src="Logoes/enquiryphone.png" alt="Telephone Icon" class="w-6 h-6" />
+        <div>
+          <div class="font-semibold text-sm">Telephone Appointment</div>
+          <div class="text-xs mt-1">One of our sales team will call you at your required time.</div>
+        </div>
+      </div>
+
+      <!-- Dealership -->
+      <div class="flex-1 border border-gray-300 rounded-lg p-3 cursor-pointer text-gray-800 flex items-center gap-3">
+        <img src="Logoes/enquirylocation.png" alt="Dealership Icon" class="w-6 h-6" />
+        <div>
+          <div class="font-semibold text-sm">Dealership Appointment</div>
+          <div class="text-xs mt-1">Dealership appointments and test drives now available.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button class="bg-[#003087] text-white w-full py-2 rounded-lg text-sm mt-2">Submit</button>
+  </div>
+</div>
+
+
+  </div>
+</div>
