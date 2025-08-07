@@ -8,11 +8,12 @@ import { WhatIsMotability1Component } from '../what-is-motability1/what-is-motab
 import { WhatIsMotability2Component } from '../what-is-motability2/what-is-motability2.component';
 import { MotabilityWhatsInclude2Component } from '../motability-whats-include2/motability-whats-include2.component';
 import { MotabilityOffers2Component } from '../motability-offers-2/motability-offers-2.component';
+import { Footer4Component } from '../footer4/footer4.component';
 
 @Component({
   selector: 'app-landingpage-6',
   standalone: true,
-  imports: [Header3Component,MotabilityheroComponent,WhatIsMotability2Component,MotabilityWhatsInclude2Component, MotabilityOffers2Component,FaqComponent],
+  imports: [Header3Component,MotabilityheroComponent,WhatIsMotability2Component,MotabilityWhatsInclude2Component, MotabilityOffers2Component,FaqComponent,Footer4Component],
   templateUrl: './landingpage-6.component.html',
   styleUrl: './landingpage-6.component.css'
 })

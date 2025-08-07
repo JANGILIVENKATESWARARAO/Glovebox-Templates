@@ -33,6 +33,9 @@ import { Landingpage6Component } from './landingpage-6/landingpage-6.component';
 import { AboutParkway2Component } from './about-parkway-2/about-parkway-2.component';
 import { Landingpage4Component } from './landingpage4/landingpage4.component';
 import { Footer4Component } from './footer4/footer4.component';
+import { Landingpage7Component } from './landingpage7/landingpage7.component';
+import { Landingpage8Component } from './landingpage8/landingpage8.component';
+import { EnquiryComponent } from './enquiry/enquiry.component';
 
 
 
@@ -44,7 +47,7 @@ import { Footer4Component } from './footer4/footer4.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,AboutParkway2Component,Footer1Component,Banner3Component,Footer4Component,Footer2Component,],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage4Component,Landingpage7Component,EnquiryComponent,Landingpage8Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
