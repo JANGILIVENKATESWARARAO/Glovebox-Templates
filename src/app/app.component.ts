@@ -36,6 +36,13 @@ import { Footer4Component } from './footer4/footer4.component';
 import { Landingpage7Component } from './landingpage7/landingpage7.component';
 import { Landingpage8Component } from './landingpage8/landingpage8.component';
 import { EnquiryComponent } from './enquiry/enquiry.component';
+import { HomepageHero1Component } from './homepage-hero1/homepage-hero1.component';
+import { UsedCars1Component } from './used-cars1/used-cars1.component';
+import { Motability3Component } from './motability3/motability3.component';
+import { PerfectPartner1Component } from './perfect-partner1/perfect-partner1.component';
+import { VechicalsServices3Component } from './vechicals-services3/vechicals-services3.component';
+import { Landingpage9Component } from './landingpage9/landingpage9.component';
+import { AboutParkway4Component } from './about-parkway4/about-parkway4.component';
 
 
 
@@ -47,7 +54,7 @@ import { EnquiryComponent } from './enquiry/enquiry.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage4Component,Landingpage7Component,EnquiryComponent,Landingpage8Component],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage4Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,HomepageHero1Component,UsedCars1Component,Motability3Component,PerfectPartner1Component,VechicalsServices3Component,AboutParkway4Component,Footer2Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
