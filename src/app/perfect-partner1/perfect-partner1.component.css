@@ -1,0 +1,10 @@
+.grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 1rem;
+        }
+        .grid-container-row2 {
+            display: grid;
+            grid-template-columns: 1fr repeat(5, 1fr) 1fr;
+            gap: 1rem;
+        }
