@@ -43,6 +43,8 @@ import { PerfectPartner1Component } from './perfect-partner1/perfect-partner1.co
 import { VechicalsServices3Component } from './vechicals-services3/vechicals-services3.component';
 import { Landingpage9Component } from './landingpage9/landingpage9.component';
 import { AboutParkway4Component } from './about-parkway4/about-parkway4.component';
+import { ShowingcarsComponent } from './showingcars/showingcars.component';
+
 
 
 
@@ -54,7 +56,7 @@ import { AboutParkway4Component } from './about-parkway4/about-parkway4.componen
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage4Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,HomepageHero1Component,UsedCars1Component,Motability3Component,PerfectPartner1Component,VechicalsServices3Component,AboutParkway4Component,Footer2Component],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage4Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,HomepageHero1Component,UsedCars1Component,Motability3Component,PerfectPartner1Component,VechicalsServices3Component,AboutParkway4Component,Footer2Component,ShowingcarsComponent,Footer1Component,Footer2Component,Footer3Component,Footer4Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
