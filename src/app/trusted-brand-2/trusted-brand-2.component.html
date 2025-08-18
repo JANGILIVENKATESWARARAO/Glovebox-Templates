@@ -40,21 +40,24 @@
 
 
 
-<div class="bg-[#ECEDEF] w-full py-10">
+<div class="bg-[#ECEDEF] w-full py-8 sm:py-10">
   <div class="w-full flex flex-col items-center justify-center px-4">
-    <div class="text-4xl font-bold text-gray-800 mb-10">Trusted Brands</div>
+    <!-- Heading -->
+    <div class="text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-6 sm:mb-10">
+      Trusted Brands
+    </div>
 
     <!-- Arrows -->
     <div class="relative w-full">
       <button
         (click)="scrollLeft()"
-        class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-md"
+        class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 sm:p-3 rounded-full shadow-md"
       >
         &lt;
       </button>
       <button
         (click)="scrollRight()"
-        class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-md"
+        class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 sm:p-3 rounded-full shadow-md"
       >
         &gt;
       </button>
@@ -62,16 +65,16 @@
       <!-- Scrollable Container -->
       <div
         #scrollContainer
-        class="flex overflow-x-auto no-scrollbar space-x-4 scroll-smooth"
+        class="flex overflow-x-auto no-scrollbar space-x-2 sm:space-x-4 2xl:space-x-6 scroll-smooth"
       >
         <div
           *ngFor="let logo of logos"
-          class="min-w-[200.59px] h-[113.86px] bg-white rounded-[8px] flex items-center justify-center p-6 flex-shrink-0"
+          class="min-w-[120px] sm:min-w-[160px] md:min-w-[200px] 2xl:min-w-[240px] h-[80px] sm:h-[100px] md:h-[114px] 2xl:h-[140px] bg-white rounded-[8px] flex items-center justify-center p-4 sm:p-6 flex-shrink-0"
         >
           <img
             [src]="logo.src"
             [alt]="logo.alt"
-            class="h-[60px] w-auto object-contain mix-blend-darken"
+            class="h-[40px] sm:h-[50px] md:h-[60px] 2xl:h-[80px] w-auto object-contain mix-blend-darken"
           />
         </div>
       </div>
