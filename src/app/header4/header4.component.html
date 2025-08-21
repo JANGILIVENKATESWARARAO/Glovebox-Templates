@@ -3,17 +3,23 @@
   <div class="flex justify-between md:justify-end items-center h-11 px-4 sm:px-8 lg:pr-24 space-x-4 sm:space-x-6 w-full bg-[#052B6B] text-white">
     
     <!-- Google Rating -->
-    <div class="h-6 flex items-center space-x-2 border-l-2 border-r-2 border-[#FFFFB3] border-opacity-30 pr-4 sm:pr-6">
+    <!-- <div class="h-6 flex items-center space-x-2 border-l-2 border-r-2 border-[#FFFFB3] border-opacity-30 pr-4 sm:pr-6">
       <img src="Logoes/Google.png" alt="Google" class="h-5 w-5">
       <span class="hidden sm:inline font-normal font-figtree">Google Rating</span>
       <span class="text-yellow-400 text-lg sm:text-xl md:text-3xl">★★★★★</span>
+    </div> -->
+
+    <div class="h-6 flex items-center space-x-2 border-l-2 border-r-2  border-[#FFFFB3] border-opacity-30 pr-6 ">
+      <img src="Logoes/Google.png" alt="Google" class="h-5 w-5 ">
+      <span class="font-normal">Google Rating</span>
+      <span class="text-yellow-400 text-3xl ">★★★★★</span>
     </div>
 
     <!-- Call Section -->
     <div class="flex items-center space-x-2">
       <img src="Logoes/Phone_image1.png" class="h-4 w-4 sm:h-5 sm:w-5" />
-      <span class="hidden sm:inline text-xs sm:text-sm font-normal text-white font-figtree">Call Us</span>
-      <span class="text-xs sm:text-sm font-semibold text-white">+44 (986) 677-638</span>
+      <span class="text-sm font-normal text-white">Call Us</span>
+      <span class="text-sm  font-light text-white mr-6">+44 (986) 677-638</span>
     </div>
   </div>
 
@@ -27,16 +33,16 @@
       </div>
 
       <!-- Hamburger for mobile -->
-      <button class="md:hidden flex items-center justify-center h-8 w-8 border border-gray-300 rounded">
+      <!-- <button class="md:hidden float-right flex items-center justify-center h-8 w-8 border border-gray-300 rounded">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
           viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="M4 6h16M4 12h16M4 18h16" />
         </svg>
-      </button>
+      </button> -->
 
       <!-- Navigation Links (hidden on mobile) -->
-      <nav class="hidden md:flex space-x-4 lg:space-x-8 text-sm text-gray-700">
+      <nav class="hidden md:flex space-x-4 lg:space-x-8 text-sm text-gray-700  md:text-xs ">
         <a href="#" class="border-b-2 border-transparent hover:border-blue-600 hover:text-blue-600 pb-1">Home</a>
         <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue-600">New Vehicles</a>
         <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue-600">Motability</a>
@@ -47,11 +53,19 @@
 
       <!-- Icons -->
       <div class="flex items-center space-x-3 sm:space-x-4">
-        <div class="h-7 w-7 sm:h-8 sm:w-8 flex items-center justify-center rounded-full border border-gray-300">
-          <img src="Logoes/Search1.png" alt="" class="h-4 sm:h-5">
+        <div class="h-8 w-8 flex items-center justify-center rounded-full border-\[0.5px] border-gray-300 ">
+            <!-- <i class="fas fa-search text-gray-700 text-x  "></i> -->
+            <img src="Logoes/Search1.png" alt="">
         </div>
         <div class="h-7 w-7 sm:h-8 sm:w-8 flex items-center justify-center rounded-full bg-[#54585F]">
           <img src="Logoes/Profile1.png" alt="" class="h-4 sm:h-5">
+        </div>
+        <div>
+          <button class="md:hidden float-right flex items-center justify-center h-8 w-8 border border-gray-300 rounded">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
