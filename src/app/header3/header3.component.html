@@ -1,99 +1,74 @@
-
 <div class="w-full mx-auto">
-<div class="flex justify-end items-center h-11 pr-24 space-x-6 w-full bg-[#052B6B] text-white">
-  <!-- Google Rating -->
-  <div class="h-6 flex items-center space-x-2 border-l-2 border-r-2  border-[#FFFFB3] border-opacity-30 pr-6 ">
-    <img src="Logoes/Google.png" alt="Google" class="h-5 w-5 ">
-    <span class="font-normal">Google Rating</span>
-    <span class="text-yellow-400 text-3xl ">★★★★★</span> 
-  </div>
-
-  <!-- Call Section -->
-  <div class="flex items-center space-x-2 mr-6">
-    <!-- Phone Icon -->
-    <div><img src="Logoes/Phone_image1.png" class="img_phone " /></div>
+  <!-- Top Bar -->
+  <div class="flex justify-between md:justify-end items-center h-11 px-4 sm:px-8 lg:pr-24 space-x-4 sm:space-x-6 w-full bg-[#052B6B] text-white">
     
+    <!-- Google Rating -->
+    <!-- <div class="h-6 flex items-center space-x-2 border-l-2 border-r-2 border-[#FFFFB3] border-opacity-30 pr-4 sm:pr-6">
+      <img src="Logoes/Google.png" alt="Google" class="h-5 w-5">
+      <span class="hidden sm:inline font-normal font-figtree">Google Rating</span>
+      <span class="text-yellow-400 text-lg sm:text-xl md:text-3xl">★★★★★</span>
+    </div> -->
 
-    
-    <span class="text-sm font-normal text-white">Call Us</span>
-    <span class="text-sm  font-light text-white mr-6">+44 (986) 677-638</span>
-  </div>
-</div>
-<header class="bg-white border-gray-300 pr-24">
-  <div class=" mx-auto  py-3 flex justify-between items-center">
-    <!-- Logo and Brand -->
-    <div class="flex items-center space-x-3 pl-12 ">
-
-      <img src="Logoes/Parkway_logo.png" alt="VW Logo" class="h-10 ">
-
+    <div class="h-6 flex items-center space-x-2 border-l-2 border-r-2  border-[#FFFFB3] border-opacity-30 pr-6 ">
+      <img src="Logoes/Google.png" alt="Google" class="h-5 w-5 ">
+      <span class="font-normal">Google Rating</span>
+      <span class="text-yellow-400 text-3xl ">★★★★★</span>
     </div>
 
-    <!-- Navigation Links -->
-    <nav class="hidden md:flex space-x-8 text-sm text-gray-700 ">
-      <nav class=" hidden md:flex space-x-[90px] text-white text-sm"></nav>
+    <!-- Call Section -->
+    <div class="flex items-center space-x-2">
+      <img src="Logoes/Phone_image1.png" class="h-4 w-4 sm:h-5 sm:w-5" />
+      <span class="text-sm font-normal text-white">Call Us</span>
+      <span class="text-sm  font-light text-white mr-6">+44 (986) 677-638</span>
+    </div>
+  </div>
 
-      <a href="#" class="border-b-2 border-transparent hover:border-blue-600 text-gray-700 hover:text-blue-600 pb-1">Home</a>
-      <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue hover:text-blue-600">New Vehicles</a>
-      <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue hover:text-blue-600">Motability</a>
-      <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue hover:text-blue-600">Motability Offers</a>
-      <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue hover:text-blue-600">New Vehicle Offers</a>
-      <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue hover:text-blue-600">Careers</a>
-      <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue hover:text-blue-600">Contact Us</a>
-    </nav>
+  <!-- Header -->
+  <header class="bg-white border-gray-300 px-4 sm:px-8 lg:pr-24">
+    <div class="mx-auto py-3 flex justify-between items-center">
+      
+      <!-- Logo -->
+      <div class="flex items-center space-x-3">
+        <img src="Logoes/Parkway_logo.png" alt="VW Logo" class="h-8 sm:h-10">
+      </div>
 
-    <!-- Font Awesome CDN -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+      <!-- Hamburger for mobile -->
+      <!-- <button class="md:hidden float-right flex items-center justify-center h-8 w-8 border border-gray-300 rounded">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button> -->
 
-<!-- <div class="flex items-center space-x-4">
-<div class="h-8 w-8 flex items-center justify-center rounded-full border-[0.5px] border-gray-300 ">
-  <i class="fas fa-search text-gray-700 text-x  "></i>
-   <img src="Logoes/Search1.png" alt="">
+      <!-- Navigation Links (hidden on mobile) -->
+      <nav class="hidden md:inline space-x-4 lg:space-x-8 text-sm text-gray-700  md:text-xs md:text-[0.7rem] ">
+        <a href="#" class="border-b-2 border-transparent hover:border-blue-600 hover:text-blue-600 pb-1">Home</a>
+        <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue-600">New Vehicles</a>
+        <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue-600">Motability</a>
+        <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue-600">Motability Offers</a>
+        <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue-600">New Vehicle Offers</a>
+        <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue-600">Careers</a>
+        <a href="#" class="hover:border-b-2 border-blue-600 hover:text-blue-600">Contact Us</a>
+      </nav>
+
+      <!-- Icons -->
+      <div class="flex items-center space-x-3 sm:space-x-4">
+        <div class="h-8 w-8 flex items-center justify-center rounded-full border-\[0.5px] border-gray-300 ">
+            <!-- <i class="fas fa-search text-gray-700 text-x  "></i> -->
+            <img src="Logoes/Search1.png" alt="">
+        </div>
+        <div class="h-7 w-7 sm:h-8 sm:w-8 flex items-center justify-center rounded-full bg-[#54585F]">
+          <img src="Logoes/Profile1.png" alt="" class="h-4 sm:h-5">
+        </div>
+        <div>
+          <button class="md:hidden float-right flex items-center justify-center h-8 w-8 border border-gray-300 rounded">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
 </div>
-  <div class="h-8 w-8 flex items-center justify-center rounded-full bg-[#54585F]">
-    <i class="fas fa-user text-white text-xl"></i>
-     <img src="Logoes/Profile1.png" alt="">
-  </div>
-</div> -->
-
-
-
-<div class="flex items-center space-x-4">
-  <!-- Search Icon -->
-  <div class="h-8 w-8 flex items-center justify-center rounded-full border-[0.5px] border-gray-300">
-    <img src="Logoes/Search1.png" alt="">
-  </div>
-
-  <!-- Profile Icon -->
-  <div class="h-8 w-8 flex items-center justify-center rounded-full bg-[#54585F]">
-    <img src="Logoes/Profile1.png" alt="">
-  </div>
-
-  <!-- Hamburger Icon - visible only on mobile -->
-  <button class="md:hidden flex items-center justify-center h-8 w-8 border border-gray-300 rounded">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-    </svg>
-  </button>
-</div>
-
-    
-  </div>
-</header>
-</div>
-
-
-
-
-
-
-
-
-<!-- <div class="flex items-center space-x-4">
-        <button class="text-gray-500 hover:text-gray-700">
-          🔍
-        </button>
-        <button class="text-white bg-gray-700 rounded-full h-8 w-8 flex items-center justify-center ">
-          
-          👤
-        </button>
-      </div> -->
