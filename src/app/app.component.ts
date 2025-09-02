@@ -45,6 +45,8 @@ import { Landingpage9Component } from './landingpage9/landingpage9.component';
 import { AboutParkway4Component } from './about-parkway4/about-parkway4.component';
 import { ShowingcarsComponent } from './showingcars/showingcars.component';
 import {NewVehicleOffersComponent} from './New Vehicle Offers/new-vehicle-offers.component';
+import { Landingpage10Component } from './landingpage10/landingpage10.component';
+import { Landingpage13Component } from './landingpage13/landingpage13.component';
 
 
 
@@ -57,7 +59,7 @@ import {NewVehicleOffersComponent} from './New Vehicle Offers/new-vehicle-offers
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NewVehicleOffersComponent,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage4Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,HomepageHero1Component,UsedCars1Component,Motability3Component,PerfectPartner1Component,VechicalsServices3Component,AboutParkway4Component,Footer2Component,ShowingcarsComponent,Footer1Component,Footer2Component,Footer3Component,Footer4Component],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage13Component ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
