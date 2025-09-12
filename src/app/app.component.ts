@@ -47,6 +47,9 @@ import { ShowingcarsComponent } from './showingcars/showingcars.component';
 import {NewVehicleOffersComponent} from './New Vehicle Offers/new-vehicle-offers.component';
 import { Landingpage10Component } from './landingpage10/landingpage10.component';
 import { Landingpage13Component } from './landingpage13/landingpage13.component';
+import { Landingpage14Component } from './landingpage14/landingpage14.component';
+import { Landingpage19Component } from './landingpage19/landingpage19.component';
+import { Landingpage20Component } from './landingpage20/landingpage20.component';
 
 
 
@@ -59,7 +62,7 @@ import { Landingpage13Component } from './landingpage13/landingpage13.component'
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage13Component ],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage13Component,Landingpage14Component,Landingpage19Component,Landingpage20Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
