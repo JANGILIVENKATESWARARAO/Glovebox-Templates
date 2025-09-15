@@ -69,6 +69,7 @@ import { Financedetail1Component } from './financedetail-1/financedetail-1.compo
 
 
 
+import { Template15Component } from './template-15/template-15.component';
 
 
 
@@ -81,7 +82,7 @@ import { Financedetail1Component } from './financedetail-1/financedetail-1.compo
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage11Component,Landingpage12Component,Landingpage13Component,Landingpage14Component,Landingpage15Component,Landingpage19Component,Landingpage20Component,Landingpage22Component,Landingpage23Component,Landingpage25Component,Banner4Component,Banner5Component,Banner6Component,Banner7Component,Banner8Component,Landingpage26Component,Landingpage27Component,Landingpage15Component,CareersComponent,PicantoenquiryComponent,Financedetail1Component],
+  imports: [RouterOutlet,Landingpage1Component,Template15Component,Landingpage2Component,NewVehicleOffersComponent,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage13Component ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
