@@ -50,6 +50,13 @@ import { Landingpage13Component } from './landingpage13/landingpage13.component'
 import { Landingpage14Component } from './landingpage14/landingpage14.component';
 import { Landingpage19Component } from './landingpage19/landingpage19.component';
 import { Landingpage20Component } from './landingpage20/landingpage20.component';
+import { Landingpage12Component } from './landingpage12/landingpage12.component';
+import { Landingpage11Component } from './landingpage11/landingpage11.component';
+import { Landingpage22Component } from './landingpage22/landingpage22.component';
+import { Landingpage23Component } from './landingpage23/landingpage23.component';
+import { Landingpage25Component } from './landingpage25/landingpage25.component';
+
+
 
 
 
@@ -62,7 +69,7 @@ import { Landingpage20Component } from './landingpage20/landingpage20.component'
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage13Component,Landingpage14Component,Landingpage19Component,Landingpage20Component],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage11Component,Landingpage12Component,Landingpage13Component,Landingpage14Component,Landingpage19Component,Landingpage20Component,Landingpage22Component,Landingpage23Component,Landingpage25Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
