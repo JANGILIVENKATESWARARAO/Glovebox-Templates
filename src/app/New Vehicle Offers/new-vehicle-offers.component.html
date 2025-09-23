@@ -1,12 +1,24 @@
 <app-header4></app-header4>
 
-<body style="background-color: #F6F7F9;" class="max-w-screen-2xl mx-auto">
-  <div class="relative top-10 bg-[#F6F7F9] flex flex-col lg:flex-row gap-4 px-[6.94%]">
+<div style="background-color: #F6F7F9;" class="max-w-screen-2xl mx-auto">
+  
+  <!-- Back to Result -->
+  <div class="flex items-center gap-2 px-[6.94%] pt-6 cursor-pointer">
+    <!-- Left Arrow Image -->
+    <img src="/Logoes/left1.png" alt="Back" style="width:16px; height:16px;" />
+    
+    <!-- Text -->
+    <span style="font-family: Figtree; font-weight:600; font-size:16px; line-height:120%;">Back to result</span>
+  </div>
+
+  <!-- top compoent -->
+  <div class="relative top-10 bg-[#F6F7F9] flex flex-col lg:flex-row gap-4 px-[6.94%] [@media(width:1024px)]:px-[96px]">
 
     <!-- Left Section (Image & Gallery) -->
     <div class="bg-[#F6F7F9] rounded-xl border border-[#E2E2E2] overflow-hidden flex flex-col w-full lg:w-[717px]">
       <img src="/Logoes/Group 1321315323.png"
-        class="bg-white w-full h-[260px] sm:h-[360px] md:h-[420px] lg:h-[460px] object-cover rounded-t-xl" />
+        class="bg-white w-full h-[260px] sm:h-[360px] md:h-[420px] lg:h-[460px] object-cover rounded-t-xl
+         [@media(width:1024px)]:h-[565px] [@media(width:1024px)]:object-contain" />
 
       <!-- Bottom tab icons -->
       <div class="bg-[#ECEDEF] flex justify-center items-start gap-6 py-3 rounded-b-xl flex-wrap">
@@ -40,7 +52,7 @@
         </div>
 
         <!-- Divider -->
-        <div class="hidden lg:block w-px h-10 bg-[#B9BDC4]"></div>
+        <div class="hidden lg:block w-px h-10 bg-[#B9BDC4] mt-auto mb-auto"></div>
 
         <!-- Share -->
         <div class="flex flex-col items-center gap-2">
@@ -95,7 +107,7 @@
             <p class="text-xs md:text-sm">EMI Starts at</p>
             <p class="font-bold text-base md:text-xl">£200.40/month</p>
           </div>
-          <div class="flex items-center gap-2 text-[#001A44] font-semibold text-xs md:text-sm">
+          <div class="flex items-center gap-2 text-[#001A44] font-semibold text-xs md:text-sm [@media(width:1024px)]:pl-4">
             Calculate My Finance <i class="fa-solid fa-arrow-right"></i>
           </div>
         </div>
@@ -107,39 +119,156 @@
       </div>
 
       <!-- Buttons -->
-      <div class="flex flex-col sm:flex-row gap-3">
-        <button class="flex-1 bg-[#052B6B] text-white py-3 rounded-lg font-semibold">Make an Enquiry</button>
-        <button class="flex-1 border border-[#052B6B] text-[#052B6B] py-3 rounded-lg font-semibold">Request Test
-          Drive</button>
-      </div>
+      <div class="flex flex-col items-center justify-center w-full ">
+    <div class="flex flex-col gap-4 w-full max-w-[475px]">
+      <!-- First Button -->
+      <button class="w-full max-w-[475px]  h-[45px] rounded-lg py-[13px] bg-[#052B6B] text-white font-semibold">
+        Make an Enquiry
+      </button>
+
+      <!-- Second Button -->
+      <button class="w-full  h-[45px] rounded-lg px-3 py-[13px] border border-[#052B6B] text-[#052B6B] font-semibold">
+        Request Test Drive
+      </button>
     </div>
   </div>
-  <div class="relative bg-[#F6F7F9] overflow-hidden 
-         top-[70px] h-[1050px] px-[6.94%] 
-         sm:h-[900px] sm:px-6 
-         md:h-[800px] md:px-12 
-         lg:h-[700px] lg:px-24">
-    <div class="bg-white rounded-xl p-4 flex flex-col items-center gap-6">
-      <!-- Header -->
-      <div class="w-full flex flex-col gap-4">
-        <h2 class="text-black text-2xl font-bold">Features</h2>
 
-        <!-- Tabs -->
-        <div class="w-full border-b border-gray-300 flex">
-          <div class="w-1/3 flex flex-col items-center">
-            <div class="text-[#052B6B] text-base font-semibold">Features</div>
-            <div class="w-full h-1 bg-[#052B6B]"></div>
+    </div>
+  </div>
+
+
+<!-- key info section  -->
+
+<div class="bg-[#F6F7F9] flex justify-center px-[6.94%] py-10 mt-[40px] w-full [@media(width:1024px)]:px-[96px]">
+  <div class="bg-white rounded-xl shadow-sm w-full  p-4 flex flex-col gap-4">
+    <!-- Header -->
+   <div class="flex items-center gap-3 justify-between">
+     <!-- 32px × 32px -->
+      <h2 class="text-black text-[24px] font-bold">Key Information</h2>
+      <img src="/Logoes/down_arrow1.png" alt="Info Icon" class="w-8 h-8" />
+    </div>
+    <!-- Row -->
+    <div class="flex flex-col   gap-4">
+      <!-- First Row -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 border-b border-[#DCDFE]-300">
+        <!-- Box -->
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3">
+          <img src="/Logoes/reg-year.png" alt="Reg Year" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Reg. year</p>
+            <p class="text-[16px] font-semibold text-black">Aug 2013</p>
           </div>
-          <div class="w-1/3 flex flex-col items-center">
-            <div class="text-gray-400 text-base">Specifications</div>
-            <div class="w-full h-1"></div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3 ">
+          <img src="/Logoes/miles.png" alt="Miles" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Miles</p>
+            <p class="text-[16px] font-semibold text-black">61,832</p>
           </div>
-          <div class="w-1/3 flex flex-col items-center">
-            <div class="text-gray-400 text-base text-center">Factory fitted options</div>
-            <div class="w-full h-1"></div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3 ">
+          <img src="/Logoes/transmission.png" alt="Transmission" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Transmission</p>
+            <p class="text-[16px] font-semibold text-black">Manual</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3 ">
+          <img src="/Logoes/body-style.png" alt="Body style" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Body style</p>
+            <p class="text-[16px] font-semibold text-black">Hatchback</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3 ">
+          <img src="Logoes/fuel.png" alt="Fuel" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Fuel</p>
+            <p class="text-[16px] font-semibold text-black">Petrol</p>
+          </div>
+        </div>
+      </div> 
+
+      <!-- Second Row -->
+       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 border-b border-[#DCDFE]-300">
+        <!-- Box -->
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3">
+          <img src="/Logoes/reg-year.png" alt="Reg Year" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Reg. year</p>
+            <p class="text-[16px] font-semibold text-black">Aug 2013</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3 ">
+          <img src="/Logoes/miles.png" alt="Miles" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Miles</p>
+            <p class="text-[16px] font-semibold text-black">61,832</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3 ">
+          <img src="/Logoes/transmission.png" alt="Transmission" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Transmission</p>
+            <p class="text-[16px] font-semibold text-black">Manual</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3 ">
+          <img src="/Logoes/body-style.png" alt="Body style" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Body style</p>
+            <p class="text-[16px] font-semibold text-black">Hatchback</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 bg-white rounded-lg px-4 py-3 ">
+          <img src="/Logoes/fuel.png" alt="Fuel" class="w-5 h-5" />
+          <div>
+            <p class="text-[12px] text-gray-500">Fuel</p>
+            <p class="text-[16px] font-semibold text-black">Petrol</p>
           </div>
         </div>
       </div>
+        
+    </div>
+  </div>
+</div>
+  <!-- features section  -->
+  <div class="relative bg-[#F6F7F9] overflow-hidden 
+         px-[6.94%] 
+         sm:px-6 
+         md:px-12 
+          lg:px-24">
+    <div class="bg-white rounded-xl p-4 flex flex-col items-center gap-6">
+      <!-- Header -->
+      <div class="w-full flex flex-col gap-4">
+        <h2 class="text-black text-[24px] font-bold">Features</h2>
+
+        <!-- Tabs -->
+        <div class="w-full border-b border-gray-300 flex gap-4">
+        <!-- Tab 1 -->
+        <div class="px-4 py-1 border-b-2 w-[181px]  border-[#052B6B]">
+          <div class="text-[#052B6B] text-base text-center font-semibold">Features</div>
+        </div>
+
+        <!-- Tab 2 -->
+        <div class="px-4 py-1">
+          <div class="text-gray-400  w-[181px]  text-base  text-center font-medium">Specifications</div>
+        </div>
+
+        <!-- Tab 3 -->
+        <div class="px-4 py-1">
+          <div class="text-gray-400 w-[181px]  text-base  text-center font-medium">Factory fitted options</div>
+        </div> 
+      </div>
+
 
       <!-- Features Grid -->
       <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -211,558 +340,379 @@
       </div>
 
       <!-- Button -->
-      <button class="bg-[#052B6B] text-white text-base font-semibold px-4 py-3 rounded-lg w-[340px] sm:w-auto">
-        View All
-      </button>
+   <div class="flex items-center justify-center w-full">
+  <button class="bg-[#052B6B] text-white text-base font-semibold  
+                 w-[340px] h-[44px] min-w-[120px]
+                 rounded-lg flex items-center justify-center">
+    View All
+  </button>
+</div>
     </div>
   </div>
-  <div style="padding-left: 6.94%;padding-right: 6.94%;">
-    <div
-      style="padding-left: 6.94%;padding-right: 6.94%; position: relative; top: 40px; align-self: stretch; padding: 16px; background: linear-gradient(177deg, #E2F2FF 0%, white 49%); border-radius: 12px; outline: 1.05px #DCDFE5 solid; flex-direction: column; justify-content: center; align-items: center; display: flex">
-      <div
-        style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-        <div
-          style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-          <div
-            style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-            <div
-              style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: flex">
-              <div
-                style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 24px; font-family: Figtree; font-weight: 700; word-wrap: break-word">
-                Calculate My Finance</div>
-              <div
-                style="padding: 8px; background: #E2F2FF; border-radius: 8px; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-                <div
-                  style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 18px; font-family: Figtree; font-weight: 600; word-wrap: break-word">
-                  £2000.40</div>
-                <div
-                  style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                  per month</div>
-              </div>
+
+  <!-- calcluate seciton -->
+
+<!-- Full conversion of your provided markup to Tailwind classes only (no inline styles) -->
+<div class="">
+  <div class=" relative top-[40px] self-stretch p-4 bg-[linear-gradient(177deg,_#E2F2FF_0%,_white_49%)] rounded-[12px] outline outline-[1.05px] outline-[#DCDFE5] flex flex-col justify-center items-center">
+
+    <div class="self-stretch flex flex-col justify-start items-start gap-6">
+
+      <div class="self-stretch flex flex-col justify-start items-center gap-2">
+        <div class="self-stretch flex flex-col justify-start items-center gap-6">
+          <div class="self-stretch flex flex-col justify-start items-center gap-4">
+            <div class="self-stretch text-center justify-center flex flex-col text-black text-[24px] font-[Figtree] font-bold break-words">
+              Calculate My Finance
             </div>
-            <div
-              style="width: 422px; border-bottom: 1px #B9BDC4 solid; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-              <div
-                style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; display: inline-flex">
-                <div
-                  style="flex: 1 1 0; padding-left: 8px; padding-right: 8px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
-                  <div
-                    style="align-self: stretch; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                    <div
-                      style="justify-content: center; display: flex; flex-direction: column; color: #052B6B; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                      Personal Contract</div>
-                  </div>
-                </div>
-                <div
-                  style="align-self: stretch; height: 1px; background: #052B6B; flex-direction: column; justify-content: center; align-items: center; display: flex">
+            <div class="p-2 bg-[#E2F2FF] rounded-[8px] justify-center items-center gap-1 inline-flex">
+              <div class="justify-center flex flex-col text-black text-[18px] font-[Figtree] font-semibold break-words">£2000.40</div>
+              <div class="justify-center flex flex-col text-black text-[14px] font-[Figtree] font-normal break-words">per month</div>
+            </div>
+          </div>
+
+          <!-- Tabs Bar -->
+          <div class="w-[422px] border-b border-[#B9BDC4] justify-start items-start inline-flex">
+            <!-- Tab 1 Active -->
+            <div class="flex-1 self-stretch flex flex-col justify-start items-center inline-flex">
+              <div class="flex-1 px-2 flex flex-col justify-start items-center gap-[10px] flex">
+                <div class="self-stretch justify-center items-center gap-[10px] inline-flex">
+                  <div class="justify-center flex flex-col text-[#052B6B] text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">Personal Contract</div>
                 </div>
               </div>
-              <div
-                style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
-                <div
-                  style="padding-left: 8px; padding-right: 8px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
-                  <div
-                    style="align-self: stretch; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                    <div
-                      style="justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                      Hire Purchase</div>
-                  </div>
-                </div>
-                <div
-                  style="align-self: stretch; height: 4px; border-top-left-radius: 8px; border-top-right-radius: 8px; flex-direction: column; justify-content: center; align-items: center; display: flex">
+              <div class="self-stretch h-px bg-[#052B6B] flex flex-col justify-center items-center flex"></div>
+            </div>
+            <!-- Tab 2 Inactive -->
+            <div class="flex-1 flex flex-col justify-start items-center gap-1 inline-flex">
+              <div class="px-2 flex flex-col justify-start items-center gap-[10px] flex">
+                <div class="self-stretch justify-center items-center gap-[10px] inline-flex">
+                  <div class="justify-center flex flex-col text-[#54585F] text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">Hire Purchase</div>
                 </div>
               </div>
+              <div class="self-stretch h-1 rounded-t-[8px] flex flex-col justify-center items-center flex"></div>
             </div>
           </div>
         </div>
-        <div
-          style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
-          <div
-            style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
-            <div
-              style="flex: 1 1 0; padding: 12px; border-radius: 8px; outline: 1px #ECEDEF solid; outline-offset: -1px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
-              <div
-                style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="height: 85px;flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                    <div
-                      style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                      Customer Deposit</div>
-                    <div data-input-fields="Default" data-left-side-1="false" data-left-side-="true"
-                      data-right-side-1="false" data-show-cd="true"
-                      style="width: 106px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                      <div
-                        style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; background: white; border-radius: 8px; outline: 1px #B9BDC4 solid; outline-offset: -1px; justify-content: space-between; align-items: center; display: inline-flex">
-                        <div style="flex: 1 1 0; justify-content: space-between; align-items: center; display: flex">
-                          <div
-                            style="flex: 1 1 0; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                            <div
-                              style="flex: 1 1 0; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                              <div
-                                style="flex: 1 1 0; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                                £1,200</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+      </div>
 
-                    <div style="width: 572.21px; height: 7.42px; background: #ECEDEF; border-radius: 45px">
-                    </div>
-                    <div
-                      style="position: relative;top: -16px; width: 226.78px; height: 7.42px; background: #1858A3; border-radius: 45px">
-                    </div>
-                    <div
-                      style="position: relative;top: -37px;left: 220px; width: 18.01px; height: 18px; background: white; border-radius: 9999px; border: 5px #1858A3 solid">
-                    </div>
-                    <div
-                      style="position: relative;top: -49px;left: 40px; width: 498.18px; justify-content: space-between; align-items: center; display: inline-flex">
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                    </div>
-                    <div
-                      style="position: relative;top: -45px; align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                      <div
-                        style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                        £ 120</div>
-                      <div
-                        style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                        £ 4,000</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="height: 85px;flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                    <div
-                      style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                      PCP Repayment Period</div>
-                    <div data-input-fields="Default" data-left-side-1="false" data-left-side-="true"
-                      data-right-side-1="false" data-show-cd="true"
-                      style="width: 106px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                      <div
-                        style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; background: white; border-radius: 8px; outline: 1px #B9BDC4 solid; outline-offset: -1px; justify-content: space-between; align-items: center; display: inline-flex">
-                        <div style="flex: 1 1 0; justify-content: space-between; align-items: center; display: flex">
-                          <div
-                            style="flex: 1 1 0; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                            <div
-                              style="flex: 1 1 0; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                              <div
-                                style="flex: 1 1 0; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                                23 Months</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+      <!-- Main two-column area -->
+      <div class="self-stretch flex flex-col lg:flex-row  justify-start items-start gap-4">
+        <!-- Left Column: Sliders -->
+       <div class="flex-1 p-3 rounded-[8px] outline outline-1 outline-[#ECEDEF] outline-offset-[-1px] flex flex-col justify-start items-start gap-4 inline-flex 
+[@media(width:1024px)]:py-12 
 
-                    <div style="width: 572.21px; height: 7.42px; background: #ECEDEF; border-radius: 45px">
-                    </div>
-                    <div
-                      style="position: relative;top: -15px; width: 108.67px; height: 7.42px; background: #1858A3; border-radius: 45px">
-                    </div>
-                    <div
-                      style="position: relative;left: 100px;top: -36px; width: 18.01px; height: 18px; background: white; border-radius: 9999px; border: 5px #1858A3 solid">
-                    </div>
-                    <div
-                      style="position: relative;top: -49px;left: 40px;width: 498.18px; justify-content: space-between; align-items: center; display: inline-flex">
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                    </div>
-                    <div
-                      style="position: relative;top: -45px;align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                      <div
-                        style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                        6 Months</div>
-                      <div
-                        style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                        48 Monts</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="height: 92px; flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                    <div
-                      style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                      Annual Mileage</div>
-                    <div data-input-fields="Default" data-left-side-1="false" data-left-side-="true"
-                      data-right-side-1="false" data-show-cd="true"
-                      style="width: 106px; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 8px; display: inline-flex">
-                      <div
-                        style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; background: white; border-radius: 8px; outline: 1px #B9BDC4 solid; outline-offset: -1px; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
-                        <div style="flex: 1 1 0; justify-content: flex-end; align-items: center; display: flex">
-                          <div
-                            style="flex: 1 1 0; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                            <div
-                              style="flex: 1 1 0; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                              <div
-                                style="flex: 1 1 0; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                                9,000 Miles</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+[@media(width:768px)]:w-full 
+[@media(width:640px)]:w-full">
 
-                    <div style="width: 572.21px; height: 7.42px; background: #ECEDEF; border-radius: 45px">
-                    </div>
-                    <div
-                      style="position: relative;top: -15px; width: 108.67px; height: 7.42px; background: #1858A3; border-radius: 45px">
-                    </div>
-                    <div
-                      style="position: relative;left: 100px;top: -36px;width: 18.01px; height: 18px; background: white; border-radius: 9999px; border: 5px #1858A3 solid">
-                    </div>
-                    <div
-                      style="position: relative;top: -49px;left: 40px;width: 498.18px; justify-content: space-between; align-items: center; display: inline-flex">
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                      <div
-                        style="width: 7.87px; height: 0px; transform: rotate(90deg); transform-origin: top left; outline: 1px #B9BDC4 solid; outline-offset: -0.50px">
-                      </div>
-                    </div>
-                    <div
-                      style="position: relative;top: -45px;align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
-                      <div
-                        style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                        0 Miles</div>
-                      <div
-                        style="justify-content: center; display: flex; flex-direction: column; color: black; font-size: 14px; font-family: Figtree; font-weight: 400; word-wrap: break-word">
-                        20,000 Miles</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="align-self: stretch; padding-left: 8px; padding-right: 8px; padding-top: 12px; padding-bottom: 12px; background: #F6F7F9; border-radius: 8px; outline: 1px #ECEDEF solid; outline-offset: -1px; justify-content: center; align-items: flex-start; gap: 16px; display: inline-flex">
-                <div
-                  style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div style="justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div style="text-align: right; justify-content: center; display: flex; flex-direction: column">
-                        <span
-                          style="color: black; font-size: 16px; font-family: Figtree; font-weight: 400; line-height: 19.20px; word-wrap: break-word">
-                          A contribution of £500.00 towards the finance deposit has been made.
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              style="flex: 1 1 0; padding-top: 12px; padding-bottom: 8px; padding-left: 8px; padding-right: 8px; background: #F6F7F9; border-radius: 8px; outline: 1px #ECEDEF solid; outline-offset: -1px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
-              <div
-                style="align-self: stretch; padding-bottom: 4px; border-bottom: 1px #DCDFE5 solid; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Balance</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        £11,000.00</div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Interest Rate (Fixed)</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        14.11%</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="align-self: stretch; padding-bottom: 4px; border-bottom: 1px #DCDFE5 solid; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Total Deposit</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        £2,000.00</div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Annual Mileage</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        9,000 Miles</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="align-self: stretch; padding-bottom: 4px; border-bottom: 1px #DCDFE5 solid; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Balance to Finance</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        £9,600.00</div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Excess milage Charge</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        6p per mile</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="align-self: stretch; padding-bottom: 4px; border-bottom: 1px #DCDFE5 solid; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Total Charge for credit</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        £2,117.90</div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Term of agreement</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        27 months</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="align-self: stretch; padding-bottom: 4px; border-bottom: 1px #DCDFE5 solid; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Total amount payable</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        £14,116.00</div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    26 Monthly Payments</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        £284.15</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="align-self: stretch; padding-bottom: 4px; justify-content: space-between; align-items: center; display: inline-flex">
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Representative APR</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        14.2% A.P.R</div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
-                  <div
-                    style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                    Option to purchase fee</div>
-                  <div
-                    style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                    <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Figtree; font-weight: 600; line-height: 19.20px; word-wrap: break-word">
-                        £10.00</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            style="align-self: stretch; padding-top: 16px; border-top: 1px #DCDFE5 solid; flex-direction: column; justify-content: center; align-items: center; gap: 15px; display: flex">
-            <div
-              style="width: 692px; justify-content: flex-start; align-items: center; gap: 16px; display: inline-flex">
-              <div
-                style="width: 340px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
-                <div
-                  style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
-                  <div style="flex: 1 1 0; justify-content: flex-start; align-items: center; gap: 16px; display: flex">
-                    <div data-icon="true" data-primary="Defalut"
-                      style="flex: 1 1 0; min-width: 120px; padding-left: 12px; padding-right: 12px; padding-top: 13px; padding-bottom: 13px; background: #052B6B; border-radius: 8px; justify-content: center; align-items: center; gap: 4px; display: flex">
-                      <div
-                        style="color: white; font-size: 16px; font-family: Figtree; font-weight: 600; word-wrap: break-word">
-                        Calculate</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
-                <div
-                  style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: #54585F; font-size: 12px; font-family: Figtree; font-weight: 400; line-height: 14.40px; word-wrap: break-word">
-                  Final Payment of</div>
-                <div
-                  style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
-                  <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-                    <div
-                      style="text-align: right; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 20px; font-family: Figtree; font-weight: 700; word-wrap: break-word">
-                      £4,330.00</div>
-                  </div>
+  <!-- Customer Deposit -->
+  <div class="self-stretch justify-between items-center inline-flex">
+    <div class="h-[85px] flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+      <div class="self-stretch justify-between items-center inline-flex">
+        <div class="justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">Customer Deposit</div>
+        <div class="w-[106px] flex flex-col justify-start items-start gap-2 inline-flex">
+          <div class="self-stretch px-3 py-2 bg-white rounded-[8px] outline outline-1 outline-[#B9BDC4] outline-offset-[-1px] justify-between items-center inline-flex">
+            <div class="flex-1 justify-between items-center flex">
+              <div class="flex-1 justify-start items-center gap-2 flex">
+                <div class="flex-1 justify-start items-center gap-2 flex">
+                  <div class="flex-1 text-black text-[14px] font-[Figtree] font-normal break-words">£1,200</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slider -->
+      <div class="self-stretch flex flex-col justify-start items-start gap-2 flex">
+        <div class="w-[572.21px] h-[7.42px] bg-[#ECEDEF] rounded-[45px] [@media(max-width:640px)]:w-full"></div>
+        <div class="relative top-[-16px] w-[226.78px] h-[7.42px] bg-[#1858A3] rounded-[45px] [@media(max-width:640px)]:w-[60%]"></div>
+        <div class="relative top-[-37px] left-[220px] w-[18.01px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3] [@media(max-width:640px)]:left-[90%]"></div>
+        <div class="relative top-[-49px] left-[40px] w-[498.18px] justify-between items-center inline-flex [@media(max-width:640px)]:w-full">
+          <!-- ticks -->
+          <div class="w-[7.87px] h-0 rotate-90 origin-top-left outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 origin-top-left outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 origin-top-left outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 origin-top-left outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 origin-top-left outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 origin-top-left outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 origin-top-left outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 origin-top-left outline outline-[1px] outline-[#B9BDC4]"></div>
+        </div>
+        <div class="relative top-[-45px] self-stretch justify-between items-center inline-flex">
+          <div class="justify-center flex flex-col text-black text-[14px] font-[Figtree] font-normal break-words">£ 120</div>
+          <div class="justify-center flex flex-col text-black text-[14px] font-[Figtree] font-normal break-words">£ 4,000</div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="w-full relative flex flex-col gap-16 mt-[10rem] px-[6.94%]">
+
+  <!-- PCP Repayment Period -->
+  <div class="self-stretch justify-between items-center inline-flex">
+    <div class="h-[85px] flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+      <div class="self-stretch justify-between items-center inline-flex">
+        <div class="justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">PCP Repayment Period</div>
+        <div class="w-[106px] flex flex-col justify-start items-start gap-2 inline-flex">
+          <div class="self-stretch px-3 py-2 bg-white rounded-[8px] outline outline-1 outline-[#B9BDC4] outline-offset-[-1px] justify-between items-center inline-flex">
+            <div class="flex-1 justify-between items-center flex">
+              <div class="flex-1 justify-start items-center gap-2 flex">
+                <div class="flex-1 justify-start items-center gap-2 flex">
+                  <div class="flex-1 text-black text-[14px] font-[Figtree] font-normal break-words">23 Months</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="self-stretch flex flex-col justify-start items-start gap-2 flex">
+        <div class="w-[572.21px] h-[7.42px] bg-[#ECEDEF] rounded-[45px] [@media(max-width:640px)]:w-full"></div>
+        <div class="relative top-[-15px] w-[108.67px] h-[7.42px] bg-[#1858A3] rounded-[45px] [@media(max-width:640px)]:w-[40%]"></div>
+        <div class="relative left-[100px] top-[-36px] w-[18.01px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3] [@media(max-width:640px)]:left-[40%]"></div>
+        <div class="relative top-[-49px] left-[40px] w-[498.18px] justify-between items-center inline-flex [@media(max-width:640px)]:w-full">
+          <!-- ticks -->
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+        </div>
+        <div class="relative top-[-45px] self-stretch justify-between items-center inline-flex">
+          <div class="justify-center flex flex-col text-black text-[14px]">6 Months</div>
+          <div class="justify-center flex flex-col text-black text-[14px]">48 Months</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Annual Mileage -->
+  <div class="self-stretch justify-between items-center inline-flex">
+    <div class="h-[92px] flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+      <div class="self-stretch justify-between items-center inline-flex">
+        <div class="justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold">Annual Mileage</div>
+        <div class="w-[106px] flex flex-col justify-start items-end gap-2 inline-flex">
+          <div class="self-stretch px-3 py-2 bg-white rounded-[8px] outline outline-1 outline-[#B9BDC4] justify-end items-center gap-2 inline-flex">
+            <div class="flex-1 justify-end items-center flex">
+              <div class="flex-1 justify-start items-center gap-2 flex">
+                <div class="flex-1 justify-start items-center gap-2 flex">
+                  <div class="flex-1 text-black text-[14px] font-[Figtree] font-normal">9,000 Miles</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="self-stretch flex flex-col justify-start items-start gap-2 flex">
+        <div class="w-[572.21px] h-[7.42px] bg-[#ECEDEF] rounded-[45px] [@media(max-width:640px)]:w-full"></div>
+        <div class="relative top-[-15px] w-[108.67px] h-[7.42px] bg-[#1858A3] rounded-[45px] [@media(max-width:640px)]:w-[40%]"></div>
+        <div class="relative left-[100px] top-[-36px] w-[18.01px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3] [@media(max-width:640px)]:left-[40%]"></div>
+        <div class="relative top-[-49px] left-[40px] w-[498.18px] justify-between items-center inline-flex [@media(max-width:640px)]:w-full">
+          <!-- ticks -->
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+        </div>
+        <div class="relative top-[-45px] self-stretch justify-between items-center inline-flex">
+          <div class="text-black text-[14px]">0 Miles</div>
+          <div class="text-black text-[14px]">20,000 Miles</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Note -->
+  <div class="self-stretch px-2 py-3 bg-[#F6F7F9] rounded-[8px] outline outline-1 outline-[#ECEDEF] justify-center items-start gap-4 inline-flex">
+    <div class="flex flex-col justify-start items-start gap-2 inline-flex">
+      <div class="justify-start items-center gap-2 inline-flex">
+        <div class="justify-start items-center gap-1 flex">
+          <div class="text-right justify-center flex flex-col">
+            <span class="text-black text-[16px] font-[Figtree] font-normal">
+              A contribution of <b>£500.00</b> towards the finance deposit has been made.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        <!-- Right Column: Summary -->
+        <div class="flex-1 pt-3 pb-2 px-2 bg-[#F6F7F9] rounded-[8px] outline outline-1 outline-[#ECEDEF] outline-offset-[-1px] flex flex-col justify-start items-start gap-4 inline-flex [@media(width:768px)]:w-full [@media(width:640px)]:w-full [@media(width:1024px)]:">
+          <!-- Row 1 -->
+          <div class="self-stretch pb-1 border-b border-[#DCDFE5] justify-between items-center inline-flex">
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Balance</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">£11,000.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Interest Rate (Fixed)</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">14.11%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="self-stretch pb-1 border-b border-[#DCDFE5] justify-between items-center inline-flex">
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Total Deposit</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">£2,000.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Annual Mileage</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">9,000 Miles</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="self-stretch pb-1 border-b border-[#DCDFE5] justify-between items-center inline-flex">
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Balance to Finance</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">£9,600.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Excess milage Charge</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">6p per mile</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="self-stretch pb-1 border-b border-[#DCDFE5] justify-between items-center inline-flex">
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Total Charge for credit</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">£2,117.90</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Term of agreement</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">27 months</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 5 -->
+          <div class="self-stretch pb-1 border-b border-[#DCDFE5] justify-between items-center inline-flex">
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Total amount payable</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">£14,116.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">26 Monthly Payments</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">£284.15</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 6 -->
+          <div class="self-stretch pb-1 justify-between items-center inline-flex">
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Representative APR</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">14.2% A.P.R</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1 flex flex-col justify-start items-start gap-2 inline-flex">
+              <div class="text-right justify-center flex flex-col text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px] break-words">Option to purchase fee</div>
+              <div class="self-stretch justify-start items-center gap-2 inline-flex">
+                <div class="justify-start items-center gap-1 flex">
+                  <div class="text-right justify-center flex flex-col text-black text-[16px] font-[Figtree] font-semibold leading-[19.2px] break-words">£10.00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="self-stretch pt-4 border-t border-[#DCDFE5] flex flex-col justify-center items-center gap-[15px]">
+  <!-- Wrapper flex, centered -->
+  <div class="w-full max-w-[692px] flex flex-col md:flex-row justify-center items-center gap-4">
+    
+    <!-- Left: Button -->
+    <div class="w-full md:w-[340px] flex flex-col justify-center items-center gap-4">
+      <div class="w-full flex justify-center items-center">
+        <div class="w-full md:w-auto flex justify-center items-center">
+          <div data-icon="true" data-primary="Defalut" class="w-full md:w-[340px] px-3 py-[13px] bg-[#052B6B] rounded-[8px] flex justify-center items-center gap-1">
+            <div class="text-white text-[16px] font-[Figtree] font-semibold break-words">Calculate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Final Payment -->
+    <div class="w-full md:w-auto flex flex-col justify-center items-center gap-1">
+      <div class="text-center text-[#54585F] text-[12px] font-[Figtree] font-normal leading-[14.4px]">Final Payment of</div>
+      <div class="flex justify-center items-center gap-2">
+        <div class="text-center text-black text-[20px] font-[Figtree] font-bold">£4,330.00</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- avaialble cars section -->
+  <div class="w-full relative flex flex-col gap-16 top-[70px] ">
     <!-- Heading -->
     <div class="flex flex-col gap-8">
-      <h2 class="text-[#001A44] text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+      <h2 class="text-[black] text-[30px] font-bold leading-tight">
         New Available Models
       </h2>
     </div>
     <!-- Cars Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6  mt-[-30px] ">
       <!-- Card 1 -->
       <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col">
         <!-- Car Image Section -->
@@ -816,15 +766,18 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col">
+     <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col">
+        <!-- Car Image Section -->
         <div class="relative h-40 flex flex-col items-center justify-between rounded-t-2xl"
           style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%)">
+          <!-- Wishlist -->
           <div class="w-full flex justify-end pr-2 pt-2">
             <div class="bg-white p-1.5 rounded-full">
               <i class="fa-regular fa-heart"></i>
             </div>
           </div>
           <img src="./Logoes/Temp10new2.png" class="max-h-24 object-contain" />
+          <!-- Slider dots -->
           <div class="flex gap-2 pb-1">
             <div class="w-2 h-2 bg-[#052b6b] rounded-full"></div>
             <div class="w-2 h-2 bg-[#b9bdc4] rounded-full"></div>
@@ -832,24 +785,31 @@
           </div>
         </div>
 
+        <!-- Car Details -->
         <div class="flex flex-col gap-4 p-3">
           <div>
-            <h3 class="text-black text-lg font-bold">Tiguan</h3>
-            <p class="text-[#54585F] text-sm">TSI Elegance 2.0 4MOTION</p>
+            <h3 class="text-black text-lg font-bold">Polo</h3>
+            <p class="text-[#54585F] text-sm">GDi ISG 2 5dr (130 PS)</p>
           </div>
+
+          <!-- Tags -->
           <div class="flex flex-wrap gap-2">
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">220 PS</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Petrol</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">SUV</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Automatic</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">180 PS</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Diesel</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Hatchback</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Matic</span>
           </div>
+
+          <!-- Price -->
           <div class="border border-[#ecedef] rounded p-2">
             <div class="flex justify-between text-sm">
               <span>Start at</span>
-              <img src="\Logoes\u_info-circle.png" title="This is Tiguan TSI Elegance 2.0 4MOTION" />
+              <img src="\Logoes\u_info-circle.png" title="This is Polo GDi ISG 2 5dr (130 PS)" />
             </div>
-            <p class="font-semibold">£3000-6000</p>
+            <p class="font-semibold">£2000-4000</p>
           </div>
+
+          <!-- CTA -->
           <button onclick="window.open('https://www.volkswagen.co.in/app/site/online-booking/', '_blank')"
             class="w-full bg-[#052b6b] text-white text-sm font-semibold py-3 rounded-lg">
             Grab Hot Deal
@@ -859,14 +819,17 @@
 
       <!-- Card 3 -->
       <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col">
+        <!-- Car Image Section -->
         <div class="relative h-40 flex flex-col items-center justify-between rounded-t-2xl"
           style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%)">
+          <!-- Wishlist -->
           <div class="w-full flex justify-end pr-2 pt-2">
             <div class="bg-white p-1.5 rounded-full">
               <i class="fa-regular fa-heart"></i>
             </div>
           </div>
           <img src="./Logoes/Temp10new3.png" class="max-h-24 object-contain" />
+          <!-- Slider dots -->
           <div class="flex gap-2 pb-1">
             <div class="w-2 h-2 bg-[#052b6b] rounded-full"></div>
             <div class="w-2 h-2 bg-[#b9bdc4] rounded-full"></div>
@@ -874,24 +837,31 @@
           </div>
         </div>
 
+        <!-- Car Details -->
         <div class="flex flex-col gap-4 p-3">
           <div>
-            <h3 class="text-black text-lg font-bold">Golf</h3>
-            <p class="text-[#54585F] text-sm">GTI 2.0 TSI Performance</p>
+            <h3 class="text-black text-lg font-bold">Polo</h3>
+            <p class="text-[#54585F] text-sm">GDi ISG 2 5dr (130 PS)</p>
           </div>
+
+          <!-- Tags -->
           <div class="flex flex-wrap gap-2">
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">245 PS</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Petrol</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">180 PS</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Diesel</span>
             <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Hatchback</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Manual</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Matic</span>
           </div>
+
+          <!-- Price -->
           <div class="border border-[#ecedef] rounded p-2">
             <div class="flex justify-between text-sm">
               <span>Start at</span>
-              <img src="\Logoes\u_info-circle.png" title="This is Golf GTI 2.0 TSI Performance" />
+              <img src="\Logoes\u_info-circle.png" title="This is Polo GDi ISG 2 5dr (130 PS)" />
             </div>
-            <p class="font-semibold">£3500-7000</p>
+            <p class="font-semibold">£2000-4000</p>
           </div>
+
+          <!-- CTA -->
           <button onclick="window.open('https://www.volkswagen.co.in/app/site/online-booking/', '_blank')"
             class="w-full bg-[#052b6b] text-white text-sm font-semibold py-3 rounded-lg">
             Grab Hot Deal
@@ -900,15 +870,18 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col">
+     <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col">
+        <!-- Car Image Section -->
         <div class="relative h-40 flex flex-col items-center justify-between rounded-t-2xl"
           style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%)">
+          <!-- Wishlist -->
           <div class="w-full flex justify-end pr-2 pt-2">
             <div class="bg-white p-1.5 rounded-full">
               <i class="fa-regular fa-heart"></i>
             </div>
           </div>
           <img src="./Logoes/Temp10new4.png" class="max-h-24 object-contain" />
+          <!-- Slider dots -->
           <div class="flex gap-2 pb-1">
             <div class="w-2 h-2 bg-[#052b6b] rounded-full"></div>
             <div class="w-2 h-2 bg-[#b9bdc4] rounded-full"></div>
@@ -916,45 +889,76 @@
           </div>
         </div>
 
+        <!-- Car Details -->
         <div class="flex flex-col gap-4 p-3">
           <div>
-            <h3 class="text-black text-lg font-bold">Passat</h3>
-            <p class="text-[#54585F] text-sm">2.0 TDI Elegance DSG</p>
+            <h3 class="text-black text-lg font-bold">Polo</h3>
+            <p class="text-[#54585F] text-sm">GDi ISG 2 5dr (130 PS)</p>
           </div>
+
+          <!-- Tags -->
           <div class="flex flex-wrap gap-2">
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">190 PS</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">180 PS</span>
             <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Diesel</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Sedan</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Automatic</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Hatchback</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Matic</span>
           </div>
+
+          <!-- Price -->
           <div class="border border-[#ecedef] rounded p-2">
             <div class="flex justify-between text-sm">
               <span>Start at</span>
-              <img src="\Logoes\u_info-circle.png" title="This is Passat 2.0 TDI Elegance DSG" />
+              <img src="\Logoes\u_info-circle.png" title="This is Polo GDi ISG 2 5dr (130 PS)" />
             </div>
-            <p class="font-semibold">£2800-5500</p>
+            <p class="font-semibold">£2000-4000</p>
           </div>
+
+          <!-- CTA -->
           <button onclick="window.open('https://www.volkswagen.co.in/app/site/online-booking/', '_blank')"
             class="w-full bg-[#052b6b] text-white text-sm font-semibold py-3 rounded-lg">
             Grab Hot Deal
           </button>
         </div>
       </div>
+       
     </div>
-    <div class="flex flex-col gap-8">
-      <!-- Section Heading -->
-      <h2 class="text-[#001A44] text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
-        Used Cars
-      </h2>
+        <div class="w-full flex justify-center items-center mt-[-30px]">
+  <div class="flex justify-center items-center gap-[16px]">
+    
+    <!-- Left Button -->
+    <div style="background: white"
+      class="w-[32px] h-[32px] flex justify-center items-center p-[6px] rounded-[30px] shadow-sm">
+      <i class="fa-solid fa-angle-left"></i>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <!-- <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"> -->
-      <div
-        class="bg-white border border-[#ecedef] rounded-2xl flex flex-col w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
-        <!-- Top Image & Tags -->
-        <div
-          class="relative h-[180px] sm:h-[200px] md:h-[220px] lg:h-[240px] flex flex-col justify-between items-start rounded-t-2xl overflow-hidden"
-          style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);">
+
+    <!-- Right Button -->
+    <div style="background: white"
+      class="w-[32px] h-[32px] flex justify-center items-center p-[6px] rounded-[30px] shadow-[0px_0px_10px_rgba(0,0,0,0.10)]">
+      <i class="fa-solid fa-angle-right"></i>
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Related Suggestions Section -->
+<div class="w-full max-w-[1240px] mx-auto mt-[-30px] mb-[100px]">
+  <!-- Section Heading -->
+  <div class="flex flex-col gap-8">
+    <h2 class="text-black text-[30px] font-bold leading-tight mb-[50px]">
+      Related Suggestions
+    </h2>
+  </div>
+
+  <!-- Cards Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-[-30px]">
+
+    <!-- Card 1 -->
+    <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col min-h-[500px]">
+      <!-- Top Image & Tags -->
+      <div class="flex flex-col flex-1">
+        <div class="relative h-[180px] sm:h-[200px] md:h-[220px] lg:h-[240px] flex flex-col justify-between items-start rounded-t-2xl overflow-hidden"
+             style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);">
 
           <!-- Tags Row -->
           <div class="w-full flex justify-between items-center px-3 pt-3">
@@ -972,7 +976,7 @@
 
           <!-- Car Image -->
           <img src="./Logoes/Temp10Rel1.png"
-            class="h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] object-contain mx-auto" />
+               class="h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] object-contain mx-auto" />
 
           <!-- Dots -->
           <div class="w-full flex justify-center gap-2 pb-2">
@@ -985,8 +989,8 @@
         <!-- Car Info -->
         <div class="flex flex-col gap-3 p-3">
           <div>
-            <h2 class="text-base sm:text-base md:text-base lg:text-base xl:text-base font-bold">Hyundai i10</h2>
-            <p class="text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-[#54585F]">GDi ISG 2 5dr (130 PS)</p>
+            <h2 class="text-base font-bold">Hyundai i10</h2>
+            <p class="text-sm text-[#54585F]">GDi ISG 2 5dr (130 PS)</p>
           </div>
 
           <!-- Tags Row -->
@@ -1004,42 +1008,42 @@
                 <span class="text-sm">PCP Finance</span>
                 <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
               </div>
-              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
-                p/m</a>
+              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40 p/m</a>
             </div>
-            <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2 ">
-              <div class="flex items-center gap-1">
+            <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
+              <div class="flex flex-wrap items-center gap-1">
                 <span class="text-lg font-semibold">£16,000</span>
-                <span class="text-xs text-[#54585F]">+VAT</span>
+                <span class="text-xs text-[#54585F] whitespace-nowrap">+VAT</span>
               </div>
               <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded w-fit">
                 Save £200
               </div>
-            </div> 
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="flex justify-between items-center bg-[#e2f2ff] px-3 py-2 rounded-b-2xl">
-          <div class="flex items-center gap-1 border border-[#dcdfe5] bg-white px-2 py-1 rounded-full text-xs">
-            <img src="/Logoes/u_location-point.png" class="w-4 h-4" />
-            <span>Derby</span>
-          </div>
-          <div class="flex items-center gap-1 border border-[#1858a3] px-2 py-1 rounded-full text-xs text-[#1858A3]">
-            <img src="/Logoes/fi_7096753.png" class="w-4 h-4" />
-            Highlights
-            <img src="/Logoes/chevron-down.png" class="w-4 h-4" />
+            </div>
           </div>
         </div>
       </div>
-      <div
-        class="bg-white border border-[#ecedef] rounded-2xl flex flex-col w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
-        <!-- Top Image & Tags -->
-        <div
-          class="relative h-[180px] sm:h-[200px] md:h-[220px] lg:h-[240px] flex flex-col justify-between items-start rounded-t-2xl overflow-hidden"
-          style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);">
 
-          <!-- Tags Row -->
+      <!-- Footer -->
+      <div class="flex justify-between items-center bg-[#e2f2ff] px-3 py-2 rounded-b-2xl">
+        <div class="flex items-center gap-1 border border-[#dcdfe5] bg-white px-2 py-1 rounded-full text-xs">
+          <img src="/Logoes/u_location-point.png" class="w-4 h-4" />
+          <span>Derby</span>
+        </div>
+        <div class="flex items-center gap-1 border border-[#1858a3] px-2 py-1 rounded-full text-xs text-[#1858A3]">
+          <img src="/Logoes/fi_7096753.png" class="w-4 h-4" />
+          Highlights
+          <img src="/Logoes/chevron-down.png" class="w-4 h-4" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col min-h-[500px]">
+      <!-- Top Image & Tags -->
+      <div class="flex flex-col flex-1">
+        <div class="relative h-[180px] sm:h-[200px] md:h-[220px] lg:h-[240px] flex flex-col justify-between items-start rounded-t-2xl overflow-hidden"
+             style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);">
+
           <div class="w-full flex justify-between items-center px-3 pt-3">
             <div class="flex items-center gap-2 bg-white px-2 py-1 rounded-full text-xs">
               <img src="/Logoes/fi_2087973.png" class="w-3 h-3" />
@@ -1053,11 +1057,9 @@
             </div>
           </div>
 
-          <!-- Car Image -->
           <img src="./Logoes/Temp10Rel2.png"
-            class="h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] object-contain mx-auto" />
+               class="h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] object-contain mx-auto" />
 
-          <!-- Dots -->
           <div class="w-full flex justify-center gap-2 pb-2">
             <div class="w-2 h-2 rounded-full bg-[#052b6b]"></div>
             <div class="w-2 h-2 rounded-full bg-[#b9bdc4]"></div>
@@ -1065,35 +1067,29 @@
           </div>
         </div>
 
-        <!-- Car Info -->
         <div class="flex flex-col gap-3 p-3">
           <div>
-            <h2 class="text-base sm:text-base md:text-base lg:text-base xl:text-base font-bold">Volkswagen Polo 1.0</h2>
-            <p class="text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-[#54585F]">SE 5dr (65ps)</p>
+            <h2 class="text-base font-bold">Volkswagen Polo 1.0</h2>
+            <p class="text-sm text-[#54585F]">SE 5dr (65ps)</p>
           </div>
-
-          <!-- Tags Row -->
           <div class="flex flex-wrap gap-2">
             <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">2022</span>
             <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Diesel</span>
             <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">SUV</span>
             <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Matic</span>
           </div>
-
-          <!-- Finance & Price -->
           <div class="flex flex-col sm:flex-row gap-3">
             <div class="flex-1 border border-[#ecedef] rounded p-2">
               <div class="flex justify-between items-center">
                 <span class="text-sm">PCP Finance</span>
                 <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
               </div>
-              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
-                p/m</a>
+              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40 p/m</a>
             </div>
             <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
-              <div class="flex items-center gap-1">
+              <div class="flex flex-wrap items-center gap-1">
                 <span class="text-lg font-semibold">£16,000</span>
-                <span class="text-xs text-[#54585F]">+VAT</span>
+                <span class="text-xs text-[#54585F] whitespace-nowrap">+VAT</span>
               </div>
               <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded w-fit">
                 Save £200
@@ -1101,28 +1097,27 @@
             </div>
           </div>
         </div>
-
-        <!-- Footer -->
-        <div class="flex justify-between items-center bg-[#e2f2ff] px-3 py-2 rounded-b-2xl">
-          <div class="flex items-center gap-1 border border-[#dcdfe5] bg-white px-2 py-1 rounded-full text-xs">
-            <img src="/Logoes/u_location-point.png" class="w-4 h-4" />
-            <span>Derby</span>
-          </div>
-          <div class="flex items-center gap-1 border border-[#1858a3] px-2 py-1 rounded-full text-xs text-[#1858A3]">
-            <img src="/Logoes/fi_7096753.png" class="w-4 h-4" />
-            Highlights
-            <img src="/Logoes/chevron-down.png" class="w-4 h-4" />
-          </div>
+      </div>
+      <div class="flex justify-between items-center bg-[#e2f2ff] px-3 py-2 rounded-b-2xl">
+        <div class="flex items-center gap-1 border border-[#dcdfe5] bg-white px-2 py-1 rounded-full text-xs">
+          <img src="/Logoes/u_location-point.png" class="w-4 h-4" />
+          <span>Derby</span>
+        </div>
+        <div class="flex items-center gap-1 border border-[#1858a3] px-2 py-1 rounded-full text-xs text-[#1858A3]">
+          <img src="/Logoes/fi_7096753.png" class="w-4 h-4" />
+          Highlights
+          <img src="/Logoes/chevron-down.png" class="w-4 h-4" />
         </div>
       </div>
-      <div
-        class="bg-white border border-[#ecedef] rounded-2xl flex flex-col w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
-        <!-- Top Image & Tags -->
-        <div
-          class="relative h-[180px] sm:h-[200px] md:h-[220px] lg:h-[240px] flex flex-col justify-between items-start rounded-t-2xl overflow-hidden"
-          style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);">
+    </div>
 
-          <!-- Tags Row -->
+    <!-- Card 3 -->
+    <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col min-h-[500px]">
+      <!-- Top Image & Tags -->
+      <div class="flex flex-col flex-1">
+        <div class="relative h-[180px] sm:h-[200px] md:h-[220px] lg:h-[240px] flex flex-col justify-between items-start rounded-t-2xl overflow-hidden"
+             style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);">
+
           <div class="w-full flex justify-between items-center px-3 pt-3">
             <div class="flex items-center gap-2 bg-white px-2 py-1 rounded-full text-xs">
               <img src="/Logoes/fi_2087973.png" class="w-3 h-3" />
@@ -1136,11 +1131,9 @@
             </div>
           </div>
 
-          <!-- Car Image -->
           <img src="./Logoes/Temp10Rel3.png"
-            class="h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] object-contain mx-auto" />
+               class="h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] object-contain mx-auto" />
 
-          <!-- Dots -->
           <div class="w-full flex justify-center gap-2 pb-2">
             <div class="w-2 h-2 rounded-full bg-[#052b6b]"></div>
             <div class="w-2 h-2 rounded-full bg-[#b9bdc4]"></div>
@@ -1148,65 +1141,57 @@
           </div>
         </div>
 
-        <!-- Car Info -->
         <div class="flex flex-col gap-3 p-3">
           <div>
-            <h2 class="text-base sm:text-base md:text-base lg:text-base xl:text-base font-bold">Volkswagen Caddy 2.0
-            </h2>
-            <p class="text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-[#54585F]">TDI</p>
+            <h2 class="text-base font-bold">Toyota Yaris</h2>
+            <p class="text-sm text-[#54585F]">Hybrid Icon 5dr</p>
           </div>
-
-          <!-- Tags Row -->
           <div class="flex flex-wrap gap-2">
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">2022</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Diesel</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">SUV</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Matic</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">2023</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Petrol</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Hatchback</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Auto</span>
           </div>
-
-          <!-- Finance & Price -->
           <div class="flex flex-col sm:flex-row gap-3">
             <div class="flex-1 border border-[#ecedef] rounded p-2">
               <div class="flex justify-between items-center">
                 <span class="text-sm">PCP Finance</span>
                 <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
               </div>
-              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
-                p/m</a>
+              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40 p/m</a>
             </div>
             <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
-              <div class="flex items-center gap-1">
-                <span class="text-lg font-semibold">£16,000</span>
-                <span class="text-xs text-[#54585F]">+VAT</span>
+              <div class="flex flex-wrap items-center gap-1">
+                <span class="text-lg font-semibold">£18,000</span>
+                <span class="text-xs text-[#54585F] whitespace-nowrap">+VAT</span>
               </div>
               <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded w-fit">
-                Save £200
+                Save £250
               </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="flex justify-between items-center bg-[#e2f2ff] px-3 py-2 rounded-b-2xl">
-          <div class="flex items-center gap-1 border border-[#dcdfe5] bg-white px-2 py-1 rounded-full text-xs">
-            <img src="/Logoes/u_location-point.png" class="w-4 h-4" />
-            <span>Derby</span>
-          </div>
-          <div class="flex items-center gap-1 border border-[#1858a3] px-2 py-1 rounded-full text-xs text-[#1858A3]">
-            <img src="/Logoes/fi_7096753.png" class="w-4 h-4" />
-            Highlights
-            <img src="/Logoes/chevron-down.png" class="w-4 h-4" />
           </div>
         </div>
       </div>
-      <div
-        class="bg-white border border-[#ecedef] rounded-2xl flex flex-col w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
-        <!-- Top Image & Tags -->
-        <div
-          class="relative h-[180px] sm:h-[200px] md:h-[220px] lg:h-[240px] flex flex-col justify-between items-start rounded-t-2xl overflow-hidden"
-          style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);">
+      <div class="flex justify-between items-center bg-[#e2f2ff] px-3 py-2 rounded-b-2xl">
+        <div class="flex items-center gap-1 border border-[#dcdfe5] bg-white px-2 py-1 rounded-full text-xs">
+          <img src="/Logoes/u_location-point.png" class="w-4 h-4" />
+          <span>Manchester</span>
+        </div>
+        <div class="flex items-center gap-1 border border-[#1858a3] px-2 py-1 rounded-full text-xs text-[#1858A3]">
+          <img src="/Logoes/fi_7096753.png" class="w-4 h-4" />
+          Highlights
+          <img src="/Logoes/chevron-down.png" class="w-4 h-4" />
+        </div>
+      </div>
+    </div>
 
-          <!-- Tags Row -->
+    <!-- Card 4 -->
+    <div class="bg-white border border-[#ecedef] rounded-2xl flex flex-col min-h-[500px]">
+      <!-- Top Image & Tags -->
+      <div class="flex flex-col flex-1">
+        <div class="relative h-[180px] sm:h-[200px] md:h-[220px] lg:h-[240px] flex flex-col justify-between items-start rounded-t-2xl overflow-hidden"
+             style="background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0.2) 100%);">
+
           <div class="w-full flex justify-between items-center px-3 pt-3">
             <div class="flex items-center gap-2 bg-white px-2 py-1 rounded-full text-xs">
               <img src="/Logoes/fi_2087973.png" class="w-3 h-3" />
@@ -1220,11 +1205,9 @@
             </div>
           </div>
 
-          <!-- Car Image -->
           <img src="./Logoes/Temp10Rel4.png"
-            class="h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] object-contain mx-auto" />
+               class="h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] object-contain mx-auto" />
 
-          <!-- Dots -->
           <div class="w-full flex justify-center gap-2 pb-2">
             <div class="w-2 h-2 rounded-full bg-[#052b6b]"></div>
             <div class="w-2 h-2 rounded-full bg-[#b9bdc4]"></div>
@@ -1232,206 +1215,60 @@
           </div>
         </div>
 
-        <!-- Car Info -->
         <div class="flex flex-col gap-3 p-3">
           <div>
-            <h2 class="text-base sm:text-base md:text-base lg:text-base xl:text-base font-bold">MG ZS 105kW</h2>
-            <p class="text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-[#54585F] whitespace-nowrap">Exclusive EV
-              45KWh 5dr Auto(143PS)</p>
+            <h2 class="text-base font-bold">Ford Fiesta</h2>
+            <p class="text-sm text-[#54585F]">ST-Line 5dr</p>
           </div>
-
-          <!-- Tags Row -->
           <div class="flex flex-wrap gap-2">
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">2022</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Diesel</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">SUV</span>
-            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Matic</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">2023</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Petrol</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Hatchback</span>
+            <span class="bg-[#ecedef] text-xs px-2 py-1 rounded">Manual</span>
           </div>
-
-          <!-- Finance & Price -->
           <div class="flex flex-col sm:flex-row gap-3">
             <div class="flex-1 border border-[#ecedef] rounded p-2">
               <div class="flex justify-between items-center">
                 <span class="text-sm">PCP Finance</span>
                 <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
               </div>
-              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
-                p/m</a>
+              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£180.40 p/m</a>
             </div>
             <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
-              <div class="flex items-center gap-1">
-                <span class="text-lg font-semibold">£16,000</span>
-                <span class="text-xs text-[#54585F]">+VAT</span>
+              <div class="flex flex-wrap items-center gap-1">
+                <span class="text-lg font-semibold">£15,500</span>
+                <span class="text-xs text-[#54585F] whitespace-nowrap">+VAT</span>
               </div>
               <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded w-fit">
-                Save £200
+                Save £300
               </div>
             </div>
           </div>
         </div>
-
-        <!-- Footer -->
-        <div class="flex justify-between items-center bg-[#e2f2ff] px-3 py-2 rounded-b-2xl">
-          <div class="flex items-center gap-1 border border-[#dcdfe5] bg-white px-2 py-1 rounded-full text-xs">
-            <img src="/Logoes/u_location-point.png" class="w-4 h-4" />
-            <span>Derby</span>
-          </div>
-          <div class="flex items-center gap-1 border border-[#1858a3] px-2 py-1 rounded-full text-xs text-[#1858A3]">
-            <img src="/Logoes/fi_7096753.png" class="w-4 h-4" />
-            Highlights
-            <img src="/Logoes/chevron-down.png" class="w-4 h-4" />
-          </div>
-        </div>
       </div>
-
-      <div class="sm:ml-[175px] md:ml-[240px] lg:ml-[330px] justify-start items-center gap-[16px] inline-flex">
-        <div style="background: white"
-          class="w-[32px] h-[32px] origin-top-left justify-center items-center gap-[15px] flex p-[6px] rounded-[30px]">
-          <i class="fa-solid fa-angle-left"></i>
+      <div class="flex justify-between items-center bg-[#e2f2ff] px-3 py-2 rounded-b-2xl">
+        <div class="flex items-center gap-1 border border-[#dcdfe5] bg-white px-2 py-1 rounded-full text-xs">
+          <img src="/Logoes/u_location-point.png" class="w-4 h-4" />
+          <span>Leeds</span>
         </div>
-        <div style="background: white"
-          class="w-[32px] h-[32px] shadow-[0px_0px_10px_rgba(0,0,0,0.10)] justify-center items-center gap-[15px] flex p-[6px] rounded-[30px]">
-          <i class="fa-solid fa-angle-right"></i>
+        <div class="flex items-center gap-1 border border-[#1858a3] px-2 py-1 rounded-full text-xs text-[#1858A3]">
+          <img src="/Logoes/fi_7096753.png" class="w-4 h-4" />
+          Highlights
+          <img src="/Logoes/chevron-down.png" class="w-4 h-4" />
         </div>
       </div>
     </div>
+
   </div>
-  <div class="w-full sm:mt-[2670px] md:mt-[2070px] lg:mt-[480px] xl:mt-[350px]">
-    <!-- Enquiry Section -->
-    <div
-      class="bg-[#e2f2ffd9] flex flex-col md:flex-row items-center justify-between py-6 px-6 sm:px-12 lg:px-20 2xl:px-48">
-      <!-- Left -->
-      <div class="flex items-center gap-4 text-center md:text-left">
-        <img src="Logoes/Phone_logo.png" alt="Phone Icon" class="h-6 w-6 mx-auto md:mx-0" />
-        <div>
-          <h1 class="text-lg sm:text-xl font-bold text-black">Got a question for us?</h1>
-          <p class="text-gray-700 text-sm sm:text-base">Make an enquiry with us here.</p>
-        </div>
-      </div>
+</div>
 
-      <!-- Right -->
-      <a href="#"
-        class="bg-[#052B6B] text-white px-6 py-2 rounded-md mt-4 md:mt-0 hover:bg-blue-800 transition text-sm sm:text-base">
-        Enquiry now
-      </a>
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-[#01235B] text-white pt-8 text-xs sm:text-sm">
-      <div class="w-full">
-        <!-- Top Links -->
-        <div
-          class="flex flex-col md:flex-row md:justify-between md:items-start md:space-x-12 gap-6 px-6 sm:px-12 lg:px-20 2xl:px-48">
-          <!-- Logo -->
-          <div class="flex items-center gap-2 justify-center md:justify-start">
-            <img src="Logoes/volkswagen.png" alt="Volkswagen Logo" class="h-12 w-12">
-            <p class="text-lg font-semibold leading-tight">Parkway<br>Volkswagen</p>
-          </div>
-
-          <!-- Links -->
-          <div class="flex flex-col text-center md:text-left">
-            <div class="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-6">
-              <a href="#" class="text-white">About us</a>
-              <a href="#" class="text-white">FCA Disclaimer</a>
-              <a href="#" class="text-white">Complaints Policy</a>
-              <a href="#" class="text-white">Careers</a>
-            </div>
-
-            <hr class="border-[#FFFFB3] border-opacity-30 my-4">
-
-            <div class="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-6 mt-2">
-              <a href="#" class="text-white">Anti-Slavery & Human Trafficking Policy</a>
-              <a href="#" class="text-white">Treating Customers Fairly</a>
-              <a href="#" class="text-white">Vulnerable People Policy</a>
-              <a href="#" class="text-white">Cookie Policy</a>
-              <a href="#" class="text-white">Privacy Policy</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Disclaimer -->
-        <div
-          class="border-[#FFFFB3] border-opacity-30 border text-gray-200 p-4 mt-6 rounded-md leading-relaxed text-[10px] sm:text-xs lg:text-sm mx-4 sm:mx-12 lg:mx-20 2xl:mx-48">
-          Parkway Derby Limited is an Appointed Representative of Automotive Compliance Ltd who is authorised
-          and
-          regulated by the Financial Conduct Authority (FCA No. 497010).
-          Automotive Compliance Ltd's permissions as a Principal Firm allows Parkway Derby Limited to act as a
-          credit
-          broker, not a lender, for the introduction to a limited number of lenders, and to act as an agent on
-          behalf of
-          the insurer for insurance distribution activities only.
-          We are a credit broker and not a lender. We can introduce you to a carefully selected panel of
-          lenders, which
-          includes manufacturer lenders linked directly to the franchises that we represent.
-          We act on behalf of the lender for this introduction and not as your agent. We are not impartial,
-          and we are not
-          an independent financial advisor. Our approach is to introduce you first to the manufacturer lender
-          linked
-          directly to the particular franchise you are purchasing your vehicle from, who are usually able to
-          offer the
-          best available package for you, taking into account both interest rates and other contributions.
-          If they are unable to make you an offer of finance, we then seek to introduce you to whichever of
-          the other
-          lenders on our panel is able to make the next most suitable offer of finance for you. Our aim is to
-          secure a
-          suitable finance agreement for you that enables you to achieve your financial objectives.
-          If you purchase a vehicle, in the majority of cases, we will receive a commission from your lender
-          for
-          introducing you to them which is either a fixed fee, or a fixed percentage of the amount that you
-          borrow.
-          This may be linked to the vehicle model you purchase. Different lenders pay different commissions
-          for such
-          introductions, and manufacturer lenders linked directly to the franchises that we represent may also
-          provide
-          preferential rates to us for the funding of our vehicle stock and also provide financial support for
-          our
-          training and marketing.
-          But any such amounts they and other lenders pay us will not affect the amounts you pay under your
-          finance
-          agreement; however, you will be contributing towards the commission paid to us with the interest
-          collected on
-          your repayments.
-          Before we propose you to a potential lender, we will inform you of the likely amount of commission
-          we will
-          receive and seek your consent to receive this commission.
-          The exact amount of commission that we will receive will be confirmed prior to you signing your
-          finance
-          agreement.
-          All finance applications are subject to status, terms and conditions apply, UK residents only, 18s
-          or over.
-          Guarantees may be required.
-          <br><br>
-          VAT No. 215006068 &nbsp; FCA No. 695033
-        </div>
-
-        <!-- Bottom Bar -->
-        <div
-          class="bg-[#001a44] h-auto sm:h-[56px] text-white px-6 sm:px-12 lg:px-20 2xl:px-48 py-3 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-0 text-xs sm:text-sm">
-          <!-- Social -->
-          <div class="flex items-center space-x-4">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-          </div>
-
-          <!-- Copyright -->
-          <div class="opacity-80 font-normal text-center sm:text-right">
-            &copy;2025 Parkway Volkswagen
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-</body>
+</div>
 
 
 
+</div>
 
-
-
-
-
-
+<app-footer1></app-footer1>
 
 
 

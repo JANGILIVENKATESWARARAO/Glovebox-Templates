@@ -55,6 +55,14 @@ import { Landingpage11Component } from './landingpage11/landingpage11.component'
 import { Landingpage22Component } from './landingpage22/landingpage22.component';
 import { Landingpage23Component } from './landingpage23/landingpage23.component';
 import { Landingpage25Component } from './landingpage25/landingpage25.component';
+import { Banner4Component } from './banner4/banner4.component';
+import { Banner5Component } from './banner5/banner5.component';
+import { Banner6Component } from './banner6/banner6.component';
+import { Banner7Component } from './banner7/banner7.component';
+import { Banner8Component } from './banner8/banner8.component';
+import { Landingpage15Component } from './landingpage15/landingpage15.component';
+import { Landingpage26Component } from './landingpage26/landingpage26.component';
+import { Landingpage27Component } from './landingpage27/landingpage27.component';
 
 
 
@@ -69,7 +77,7 @@ import { Landingpage25Component } from './landingpage25/landingpage25.component'
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage11Component,Landingpage12Component,Landingpage13Component,Landingpage14Component,Landingpage19Component,Landingpage20Component,Landingpage22Component,Landingpage23Component,Landingpage25Component],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage11Component,Landingpage12Component,Landingpage13Component,Landingpage14Component,Landingpage15Component,Landingpage19Component,Landingpage20Component,Landingpage22Component,Landingpage23Component,Landingpage25Component,Banner4Component,Banner5Component,Banner6Component,Banner7Component,Banner8Component,Landingpage26Component,Landingpage27Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
