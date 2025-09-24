@@ -63,6 +63,10 @@ import { Banner8Component } from './banner8/banner8.component';
 import { Landingpage15Component } from './landingpage15/landingpage15.component';
 import { Landingpage26Component } from './landingpage26/landingpage26.component';
 import { Landingpage27Component } from './landingpage27/landingpage27.component';
+import { CareersComponent } from './careers/careers.component';
+import { PicantoenquiryComponent } from './picantoenquiry/picantoenquiry.component';
+import { Financedetail1Component } from './financedetail-1/financedetail-1.component';
+
 
 
 
@@ -77,7 +81,7 @@ import { Landingpage27Component } from './landingpage27/landingpage27.component'
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage11Component,Landingpage12Component,Landingpage13Component,Landingpage14Component,Landingpage15Component,Landingpage19Component,Landingpage20Component,Landingpage22Component,Landingpage23Component,Landingpage25Component,Banner4Component,Banner5Component,Banner6Component,Banner7Component,Banner8Component,Landingpage26Component,Landingpage27Component],
+  imports: [RouterOutlet,Landingpage1Component,Landingpage2Component,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage11Component,Landingpage12Component,Landingpage13Component,Landingpage14Component,Landingpage15Component,Landingpage19Component,Landingpage20Component,Landingpage22Component,Landingpage23Component,Landingpage25Component,Banner4Component,Banner5Component,Banner6Component,Banner7Component,Banner8Component,Landingpage26Component,Landingpage27Component,Landingpage15Component,CareersComponent,PicantoenquiryComponent,Financedetail1Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
