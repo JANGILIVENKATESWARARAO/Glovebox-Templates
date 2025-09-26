@@ -26,48 +26,53 @@
                     <option>Diesel</option>
                 </select>
             </div>
-            <button
-                class="flex flex-col bg-[#052B6B] text-white h-[50px] rounded-[8px] px-[12px] py-[17px] mt-[25px]">
-                <img src="Logoes/filter.png" alt="filter" class="h-[20px] w-[20px] ml-[5px]">
-                <span class=" items-center font-semibold text-[16px] mt-[-25px] gap-[8px] ml-[20px]">More Filter </span>
-        </button>
+            <button class="flex flex-col bg-[#052B6B] text-white h-[50px] rounded-[8px] px-[12px] py-[17px] mt-[25px]">
+                <img src="Logoes/filter.png" alt="filter" class="h-[20px] w-[20px] lg:ml-[10px]">
+                <span class=" items-center font-semibold text-[16px] mt-[-25px] gap-[8px] ml-[22px]">More Filter </span>
+            </button>
         </div>
-        <div class="flex gap-[11px] mt-[15px]">
-            <div class="flex flex-col justify-center font-semibold text-[14px] gap-[8px]"> Applied Filter:</div>
-            <div class="flex flex-col bg-[#ECEDEF] text-center justify-center h-[25px] w-[108px] rounded-[36px] px-[8px] py-[4px] gap-[8px]">Volkswagen
-        
-            </div>
-             <div class="flex flex-col bg-[#ECEDEF] text-center justify-center h-[25px] w-[108px] rounded-[36px] px-[8px] py-[4px] gap-[8px]">£1,200-$2000
-
-            </div>
-            <div class="flex flex-col bg-[#ECEDEF] text-center justify-center h-[25px] w-[69px] rounded-[36px] px-[8px] py-[4px] gap-[8px]">Petrol
-
-            </div>
-            <div class="text-[14px] font-semibold text-[#1858A3] leading-[134%] underline">
-                  Clear All
+        <div class="flex flex-wrap gap-[11px] mt-[15px] items-center pl-[-10px] ">
+            <div class="flex flex-col justify-center font-semibold font-figtree text-[14px] gap-[8px] min-w-[90px]">
+                Applied Filter:</div>
+            <div class="flex flex-wrap gap-[11px] items-center">
+                <div class="flex items-center bg-[#ECEDEF] h-[32px] gap-[8px] px-[8px] rounded-[36px]">
+                    <span class="text-[14px] text-black font-normal">Volkswagen</span>
+                    <button class=" text-black text-[30px] pb-[5px]">&times;</button>
+                </div>
+                <div class="flex items-center bg-[#ECEDEF] h-[32px] gap-[8px] px-[8px] rounded-[36px]">
+                    <span class="text-[14px] text-black font-normal">£1,200-$2000</span>
+                    <button class="text-black text-[30px] pb-[5px]">&times;</button>
+                </div>
+                <div class="flex items-center bg-[#ECEDEF] h-[32px] gap-[8px] px-[8px] rounded-[36px]">
+                    <span class="text-[14px] text-black font-normal ">Petrol</span>
+                    <button class="text-black text-[30px] pb-[5px]">&times;</button>
+                </div>
+                <div class="text-[14px] font-semibold text-[#1858A3] leading-[170%] underline cursor-pointer">
+                    Clear All
+                </div>
             </div>
         </div>
     </div>
 
-<div class="flex justify-between  p-[10px]">
-    <span class="font-bold text-[24px]">Showing cars (20)</span>
-    <div class="flex gap-[16px]">
-        <span class="flex rounded-[8px] p-[4px] border bg-[#FFFFFF] h-[40px] items-center gap-[6px]">
-            <img src="Logoes/grid2.png" alt="grid" class="w-[24px] h-[24px]">
-            <img src="Logoes/threelines2.png" alt="threelines" class="w-[24px] h-[24px]">
-        </span>
-        <span class="flex rounded-[8px] px-[12px] py-[8px] border bg-[#FFFFFF] h-[40px] items-center gap-[10px]">
-            Sort By
-            <img src="Logoes/u angle down.png" alt="angle down" class="w-[24px]">
-        </span>
+    <div class="flex justify-between  p-[10px]">
+        <span class="font-bold text-[24px]">Showing cars (20)</span>
+        <div class="flex gap-[16px]">
+            <span class="flex rounded-[8px] p-[4px] border bg-[#FFFFFF] h-[40px] items-center gap-[6px]">
+                <img src="Logoes/grid2.png" alt="grid" class="w-[24px] h-[24px]">
+                <img src="Logoes/threelines2.png" alt="threelines" class="w-[24px] h-[24px]">
+            </span>
+            <span class="flex rounded-[8px] px-[12px] py-[8px] border bg-[#FFFFFF] h-[40px] items-center gap-[10px]">
+                Sort By
+                <img src="Logoes/u angle down.png" alt="angle down" class="w-[24px]">
+            </span>
+        </div>
     </div>
-</div>
 
 
     <div class="relative flex-col justify-start items-start gap-[32px] flex ">
-       
-      
-        
+
+
+
         <div class="self-stretch flex-col justify-start items-center gap-[32px] flex">
             <div class="grid grid-cols-2 xl:grid-cols-4 self-stretch justify-start items-center gap-[16px] ">
                 <div style="background: white; outline: 1px #ecedef solid"
@@ -163,9 +168,7 @@
                         <div class="self-stretch flex-col justify-start items-start gap-[15px] flex p-[12px]">
                             <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                 class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
-                                <button style="word-wrap: break-word"
-                                    
-                                    class="text-[white] text-[16px] font-semibold">
+                                <button style="word-wrap: break-word" class="text-[white] text-[16px] font-semibold">
                                     View Offers
                                 </button>
                             </div>
@@ -265,9 +268,7 @@
                         <div class="self-stretch flex-col justify-start items-start gap-[15px] flex p-[12px]">
                             <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                 class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
-                                <button style="word-wrap: break-word"
-                                    
-                                    class="text-[white] text-[16px] font-semibold">
+                                <button style="word-wrap: break-word" class="text-[white] text-[16px] font-semibold">
                                     View Offers
                                 </button>
                             </div>
@@ -366,9 +367,7 @@
                         <div class="self-stretch flex-col justify-start items-start gap-[15px] flex p-[12px]">
                             <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                 class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
-                                <button style="word-wrap: break-word"
-                                    
-                                    class="text-[white] text-[16px] font-semibold">
+                                <button style="word-wrap: break-word" class="text-[white] text-[16px] font-semibold">
                                     View Offers
                                 </button>
                             </div>
@@ -467,9 +466,7 @@
                         <div class="self-stretch flex-col justify-start items-start gap-[15px] flex p-[12px]">
                             <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                 class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
-                                <button style="word-wrap: break-word"
-                                    
-                                    class="text-[white] text-[16px] font-semibold">
+                                <button style="word-wrap: break-word" class="text-[white] text-[16px] font-semibold">
                                     View Offers
                                 </button>
                             </div>
@@ -574,7 +571,6 @@
                                 <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                     class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
                                     <button style="word-wrap: break-word"
-                                        
                                         class="text-[white] text-[16px] font-semibold">
                                         View Offers
                                     </button>
@@ -675,7 +671,6 @@
                                 <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                     class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
                                     <button style="word-wrap: break-word"
-                                        
                                         class="text-[white] text-[16px] font-semibold">
                                         View Offers
                                     </button>
@@ -778,7 +773,6 @@
                                 <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                     class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
                                     <button style="word-wrap: break-word"
-                                        
                                         class="text-[white] text-[16px] font-semibold">
                                         View Offers
                                     </button>
@@ -880,7 +874,6 @@
                                 <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                     class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
                                     <button style="word-wrap: break-word"
-                                        
                                         class="text-[white] text-[16px] font-semibold">
                                         View Offers
                                     </button>
@@ -984,9 +977,7 @@
                         <div class="self-stretch flex-col justify-start items-start gap-[15px] flex p-[12px]">
                             <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                 class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
-                                <button style="word-wrap: break-word"
-                                    
-                                    class="text-[white] text-[16px] font-semibold">
+                                <button style="word-wrap: break-word" class="text-[white] text-[16px] font-semibold">
                                     View Offers
                                 </button>
                             </div>
@@ -1087,9 +1078,7 @@
                         <div class="self-stretch flex-col justify-start items-start gap-[15px] flex p-[12px]">
                             <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                 class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
-                                <button style="word-wrap: break-word"
-                                    
-                                    class="text-[white] text-[16px] font-semibold">
+                                <button style="word-wrap: break-word" class="text-[white] text-[16px] font-semibold">
                                     View Offers
                                 </button>
                             </div>
@@ -1188,9 +1177,7 @@
                         <div class="self-stretch flex-col justify-start items-start gap-[15px] flex p-[12px]">
                             <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                 class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
-                                <button style="word-wrap: break-word"
-                                    
-                                    class="text-[white] text-[16px] font-semibold">
+                                <button style="word-wrap: break-word" class="text-[white] text-[16px] font-semibold">
                                     View Offers
                                 </button>
                             </div>
@@ -1290,9 +1277,7 @@
                         <div class="self-stretch flex-col justify-start items-start gap-[15px] flex p-[12px]">
                             <div data-icon="true" data-primary="Defalut" style="background: #052b6b"
                                 class="self-stretch h-[50px] min-w-[150px] justify-center items-center gap-[4px] inline-flex px-[12px] py-[17px] rounded-[8px]">
-                                <button style="word-wrap: break-word"
-                                    
-                                    class="text-[white] text-[16px] font-semibold">
+                                <button style="word-wrap: break-word" class="text-[white] text-[16px] font-semibold">
                                     View Offers
                                 </button>
                             </div>
