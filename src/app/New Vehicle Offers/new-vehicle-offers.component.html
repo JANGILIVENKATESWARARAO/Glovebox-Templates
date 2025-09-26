@@ -14,14 +14,30 @@
   </div>
 
   <div class="relative top-6 bg-[#F6F7F9] flex flex-col lg:flex-row gap-4 px-[6.94%]">
+<div >
+  <app-header4></app-header4>
+</div>
+
+<div class="max-w-screen-2xl bg-[#F6F7F9] mx-auto">
+  <div class="flex items-center gap-2  px-[6.94%]">
+    <!-- Left Arrow Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mt-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+    </svg>
+    <span class="font-[Figtree] font-semibold text-[16px] mt-6 leading-[120%]">
+      Back to Result
+    </span>
+  </div>
+
+  <div class="relative top-6 bg-[#F6F7F9] flex flex-col lg:flex-row gap-4 px-[6.94%]">
 
     <!-- Left Section (Image & Gallery) -->
-    <div class="bg-[#F6F7F9] rounded-xl border border-[#E2E2E2] overflow-hidden flex flex-col w-full lg:w-[717px] ">
+    <div class="bg-[#F6F7F9] rounded-xl border border-[#E2E2E2] overflow-hidden flex flex-col w-full lg:w-[717px]">
       <img src="/Logoes/Group 1321315323.png"
         class="bg-white w-full h-[260px] sm:h-[360px] md:h-[420px] lg:h-[460px] object-cover rounded-t-xl" />
 
       <!-- Bottom tab icons -->
-      <div class="bg-[#ECEDEF] flex justify-center items-start gap-6 py-3  rounded-b-xl flex-wrap">
+      <div class="bg-[#ECEDEF] flex justify-center items-start gap-6 py-3 rounded-b-xl flex-wrap">
         <!-- Video -->
         <div class="flex flex-col items-center gap-2">
           <div class="relative w-16 h-16">
@@ -133,8 +149,8 @@
 
 
 <!-- Key Information Section --> 
-<div class="w-full  mt-[60px] px-[6.94%] flex justify-center">
-  <div class="w-full bg-white rounded-xl p-6 shadow-sm">
+<div class="w-full px-[6.94%] mt-[60px] flex justify-center">
+  <div class="w-full max-w-[1240px] bg-white rounded-xl p-6 shadow-sm">
     
     <!-- Title Row -->
     <div class="flex justify-between items-center mb-2">
@@ -239,8 +255,11 @@
 
 
   <!-- features section -->
-  <div class="relative bg-[#F6F7F9] w-full overflow-hidden 
-         top-[35px] px-[6.94%] ">
+  <div class="relative bg-[#F6F7F9] overflow-hidden 
+         top-[35px] px-[6.94%] 
+         sm:h-[900px] sm:px-6 
+         md:h-[800px] md:px-12 
+         lg:h-[700px] lg:px-24">
     <div class="bg-white rounded-xl p-4 flex flex-col items-center gap-6">
       <!-- Header -->
       <div class="w-full flex flex-col gap-4">
@@ -349,8 +368,9 @@
 
   <!-- calculate my finance section -->
 <!-- Full conversion of your provided markup to Tailwind classes only (no inline styles) -->
-<div class="flex justify-center w-full px-[6.94%] py-16 bg-[#F6F7F9]">
-  <div class="w-full  p-4 bg-[linear-gradient(177deg,_#E2F2FF_0%,_white_49%)] rounded-[12px] outline outline-[1.05px] outline-[#DCDFE5] flex flex-col justify-center items-center">
+<div class="px-[6.94%] pb-[80px] flex w-full  mt-[-300px] bg-[#F6F7F9]">
+  <div class=" relative top-[40px] self-stretch p-4 bg-[linear-gradient(177deg,_#E2F2FF_0%,_white_49%)] rounded-[12px] outline outline-[1.05px] outline-[#DCDFE5] flex flex-col justify-center items-center">
+
     <div class="self-stretch flex flex-col justify-start items-start gap-6">
 
       <div class="self-stretch flex flex-col justify-start items-center gap-2">
@@ -413,25 +433,20 @@
       </div>
 
       <!-- Slider -->
-      <div class="w-full flex flex-col  gap-2 ">
-        <div class="w-full max-w-full h-[7.42px] bg-[#ECEDEF] rounded-[45px]"></div>
-        <div class="relative top-[-16px] w-2/5  h-[7.42px] bg-[#1858A3] rounded-[45px]"></div>
-        <div class="relative top-[-37px] left-[40%] w-[18px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3]"></div>
-          <div class="relative top-[-49px]  w-full  flex justify-between px-6">
-    <div class="w-[2px] h-2 bg-[#B9BDC4] "></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-  </div>
-
-        <div class="relative top-[-45px] w-full lg:max-w-[572px] flex justify-between px-4 sm:px-2">
-    <div class="text-black text-[14px] font-[Figtree] font-normal">£ 120</div>
-    <div class="text-black text-[14px] font-[Figtree] font-normal truncate">£ 4,000</div>
-  </div>
+      <div class="self-stretch flex flex-col justify-start items-start gap-2 flex">
+        <div class="w-full lg:max-w-[572px] h-[7.42px] bg-[#ECEDEF] rounded-[45px]"></div>
+        <div class="relative top-[-16px] w-2/5 sm:w-[226.78px] h-[7.42px] bg-[#1858A3] rounded-[45px]"></div>
+        <div class="relative top-[-37px] left-[40%] sm:left-[220px] w-[18px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3]"></div>
+        <div class="relative top-[-49px] w-full lg:max-w-[572px] justify-between items-center inline-flex px-2 sm:px-0">
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+        </div>
+        <div class="relative top-[-45px] w-full lg:max-w-[572px] justify-between items-center inline-flex px-4 sm:px-2">
+          <div class="text-black text-[14px] font-[Figtree] font-normal">£ 120</div>
+          <div class="text-black text-[14px] font-[Figtree] font-normal truncate">£ 4,000</div>
+        </div>
       </div>
     </div>
   </div>
@@ -455,20 +470,16 @@
       </div>
 
       <!-- Slider -->
-      <div class="w-full flex flex-col  gap-2">
-        <div class="w-full max-w-full h-[7.42px] bg-[#ECEDEF] rounded-[45px]"></div>
+      <div class="self-stretch flex flex-col justify-start items-start gap-2 flex">
+        <div class="w-full lg:max-w-[572px] h-[7.42px] bg-[#ECEDEF] rounded-[45px]"></div>
         <div class="relative top-[-15px] w-1/5 sm:w-[108.67px] h-[7.42px] bg-[#1858A3] rounded-[45px]"></div>
-        <div class="relative left-[20%]  top-[-36px] w-[18px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3]"></div>
-       <div class="relative top-[-49px]  w-full  flex justify-between px-6 ">
-    <div class="w-[2px] h-2 bg-[#B9BDC4] "></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-  </div>
+        <div class="relative left-[20%] sm:left-[100px] top-[-36px] w-[18px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3]"></div>
+        <div class="relative top-[-49px] w-full lg:max-w-[572px] justify-between items-center inline-flex px-2 sm:px-0">
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+        </div>
         <div class="relative top-[-45px] w-full lg:max-w-[572px] justify-between items-center inline-flex px-4 sm:px-2">
           <div class="text-black text-[14px] font-[Figtree] font-normal">6 Months</div>
           <div class="text-black text-[14px] font-[Figtree] font-normal truncate">48 Months</div>
@@ -496,20 +507,16 @@
       </div>
 
       <!-- Slider -->
-      <div class="w-full flex flex-col  gap-2 ">
-        <div class="w-full max-w-full h-[7.42px] bg-[#ECEDEF] rounded-[45px]"></div>
-        <div class="relative top-[-15px] w-1/5  h-[7.42px] bg-[#1858A3] rounded-[45px]"></div>
-        <div class="relative left-[20%] top-[-36px] w-[18px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3]"></div>
-        <div class="relative top-[-49px]  w-full  flex justify-between  px-6 ">
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-    <div class="w-[2px] h-2 bg-[#B9BDC4]"></div>
-  </div>
+      <div class="self-stretch flex flex-col justify-start items-start gap-2 flex">
+        <div class="w-full lg:max-w-[572px] h-[7.42px] bg-[#ECEDEF] rounded-[45px]"></div>
+        <div class="relative top-[-15px] w-1/5 sm:w-[108.67px] h-[7.42px] bg-[#1858A3] rounded-[45px]"></div>
+        <div class="relative left-[20%] sm:left-[100px] top-[-36px] w-[18px] h-[18px] bg-white rounded-full border-[5px] border-[#1858A3]"></div>
+        <div class="relative top-[-49px] w-full lg:max-w-[572px] justify-between items-center inline-flex px-2 sm:px-0">
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+          <div class="w-[7.87px] h-0 rotate-90 outline outline-[1px] outline-[#B9BDC4]"></div>
+        </div>
         <div class="relative top-[-45px] w-full lg:max-w-[572px] justify-between items-center inline-flex px-4 sm:px-2">
           <div class="text-black text-[14px] font-[Figtree] font-normal">0 Miles</div>
           <div class="text-black text-[14px] font-[Figtree] font-normal truncate">20,000 Miles</div>
@@ -695,12 +702,11 @@
 
     </div>
   </div>
+</div>
 
 
 
-<!-- New available models  -->
- <div class="flex flex-col items-center w-full px-[6.94%] bg-[#F6F7F9] mx-auto ">
-  <div class="  bg-[#F6F7F9] w-full relative flex flex-col gap-16 ">
+  <div class="w-full bg-[#F6F7F9] relative flex flex-col gap-16  px-[6.94%]">
     <!-- Heading -->
     <div class="flex flex-col gap-8">
       <h2 class="text-[black] text-[30px] font-bold mt-6 leading-tight">
@@ -837,7 +843,7 @@
         <div class="flex flex-col gap-4 p-3">
           <div>
             <h3 class="text-black text-lg font-bold">Polo</h3>
-            <p class="text-[#54585F] text-sm">Black Edition</p>
+            <p class="text-[#54585F] text-sm">GDi ISG 2 5dr (130 PS)</p>
           </div>
 
           <!-- Tags -->
@@ -889,7 +895,7 @@
         <div class="flex flex-col gap-4 p-3">
           <div>
             <h3 class="text-black text-lg font-bold">Polo</h3>
-            <p class="text-[#54585F] text-sm">R-Line</p>
+            <p class="text-[#54585F] text-sm">GDi ISG 2 5dr (130 PS)</p>
           </div>
 
           <!-- Tags -->
@@ -917,26 +923,16 @@
         </div>
       </div>
     </div>
-          <div class="flex justify-center gap-6 ">
-    <button class="w-[32px] h-[32px] flex items-center justify-center rounded-full shadow-md bg-white">
-      <img src="/Logoes/l.png" alt="Previous" class="w-[16px] h-[16px]" />
-    </button>
-    <button class="w-[32px] h-[32px] flex items-center justify-center rounded-full shadow-md bg-white">
-      <img src="/Logoes/r.png" alt="Next" class="w-[16px] h-[16px]" />
-    </button>
-  </div>
 
 
 
-
-  <!-- Related suggestions section -->
     <div class="flex  bg-[#F6F7F9] flex-col gap-8">
       <!-- Section Heading -->
       <h2 class="text-[black] text-[30px] font-bold leading-tight">
         Related Suggestions
       </h2>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-[100px]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       <!-- <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"> -->
       <div
         class="bg-white border border-[#ecedef] rounded-2xl flex flex-col w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
@@ -987,26 +983,25 @@
           </div>
 
           <!-- Finance & Price -->
-     <div class="flex flex-col sm:flex-row gap-3 flex-wrap">
-  <div class="flex-1 min-w-0 border border-[#ecedef] rounded p-2">
-    <div class="flex justify-between items-center">
-      <span class="text-sm">PCP Finance</span>
-      <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
-    </div>
-    <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
-      p/m</a>
-  </div>
-  <div class="flex-1 min-w-0 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
-    <div class="flex items-center gap-1 flex-wrap">
-      <span class="text-lg font-semibold">£16,000</span>
-      <span class="text-xs text-[#54585F]">+VAT</span>
-    </div>
-    <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded inline-block">
-      Save £200
-    </div>
-  </div>
-</div>
-
+          <div class="flex flex-col sm:flex-row gap-3">
+            <div class="flex-1 border border-[#ecedef] rounded p-2">
+              <div class="flex justify-between items-center">
+                <span class="text-sm">PCP Finance</span>
+                <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
+              </div>
+              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
+                p/m</a>
+            </div>
+            <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
+              <div class="flex items-center gap-1">
+                <span class="text-lg font-semibold">£16,000</span>
+                <span class="text-xs text-[#54585F]">+VAT</span>
+              </div>
+              <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded w-fit">
+                Save £200
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Footer -->
@@ -1071,26 +1066,25 @@
           </div>
 
           <!-- Finance & Price -->
-        <div class="flex flex-col sm:flex-row gap-3 flex-wrap">
-  <div class="flex-1 min-w-0 border border-[#ecedef] rounded p-2">
-    <div class="flex justify-between items-center">
-      <span class="text-sm">PCP Finance</span>
-      <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
-    </div>
-    <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
-      p/m</a>
-  </div>
-  <div class="flex-1 min-w-0 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
-    <div class="flex items-center gap-1 flex-wrap">
-      <span class="text-lg font-semibold">£16,000</span>
-      <span class="text-xs text-[#54585F]">+VAT</span>
-    </div>
-    <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded inline-block">
-      Save £200
-    </div>
-  </div>
-</div>
-
+          <div class="flex flex-col sm:flex-row gap-3">
+            <div class="flex-1 border border-[#ecedef] rounded p-2">
+              <div class="flex justify-between items-center">
+                <span class="text-sm">PCP Finance</span>
+                <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
+              </div>
+              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
+                p/m</a>
+            </div>
+            <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
+              <div class="flex items-center gap-1">
+                <span class="text-lg font-semibold">£16,000</span>
+                <span class="text-xs text-[#54585F]">+VAT</span>
+              </div>
+              <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded w-fit">
+                Save £200
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Footer -->
@@ -1157,26 +1151,25 @@
           </div>
 
           <!-- Finance & Price -->
-    <div class="flex flex-col sm:flex-row gap-3 flex-wrap">
-  <div class="flex-1 min-w-0 border border-[#ecedef] rounded p-2">
-    <div class="flex justify-between items-center">
-      <span class="text-sm">PCP Finance</span>
-      <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
-    </div>
-    <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
-      p/m</a>
-  </div>
-  <div class="flex-1 min-w-0 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
-    <div class="flex items-center gap-1 flex-wrap">
-      <span class="text-lg font-semibold">£16,000</span>
-      <span class="text-xs text-[#54585F]">+VAT</span>
-    </div>
-    <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded inline-block">
-      Save £200
-    </div>
-  </div>
-</div>
-
+          <div class="flex flex-col sm:flex-row gap-3">
+            <div class="flex-1 border border-[#ecedef] rounded p-2">
+              <div class="flex justify-between items-center">
+                <span class="text-sm">PCP Finance</span>
+                <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
+              </div>
+              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
+                p/m</a>
+            </div>
+            <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
+              <div class="flex items-center gap-1">
+                <span class="text-lg font-semibold">£16,000</span>
+                <span class="text-xs text-[#54585F]">+VAT</span>
+              </div>
+              <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded w-fit">
+                Save £200
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Footer -->
@@ -1192,8 +1185,6 @@
           </div>
         </div>
       </div>
-
-
       <div
         class="bg-white border border-[#ecedef] rounded-2xl flex flex-col w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
         <!-- Top Image & Tags -->
@@ -1244,25 +1235,25 @@
           </div>
 
           <!-- Finance & Price -->
-         <div class="flex flex-col sm:flex-row gap-3 flex-wrap">
-  <div class="flex-1 min-w-0 border border-[#ecedef] rounded p-2">
-    <div class="flex justify-between items-center">
-      <span class="text-sm">PCP Finance</span>
-      <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
-    </div>
-    <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
-      p/m</a>
-  </div>
-  <div class="flex-1 min-w-0 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
-    <div class="flex items-center gap-1 flex-wrap">
-      <span class="text-lg font-semibold">£16,000</span>
-      <span class="text-xs text-[#54585F]">+VAT</span>
-    </div>
-    <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded inline-block">
-      Save £200
-    </div>
-  </div>
-</div>
+          <div class="flex flex-col sm:flex-row gap-3">
+            <div class="flex-1 border border-[#ecedef] rounded p-2">
+              <div class="flex justify-between items-center">
+                <span class="text-sm">PCP Finance</span>
+                <img src="/Logoes/u_info-circle.png" title="Estd is £200.40 p/m" class="w-4 h-4" />
+              </div>
+              <a href="https://www.edynamix.com" target="_blank" class="text-sm font-semibold underline">£200.40
+                p/m</a>
+            </div>
+            <div class="flex-1 border border-[#ecedef] bg-[#f6f7f9] rounded p-2">
+              <div class="flex items-center gap-1">
+                <span class="text-lg font-semibold">£16,000</span>
+                <span class="text-xs text-[#54585F]">+VAT</span>
+              </div>
+              <div class="bg-[#fff8de] text-[#B58D01] text-xs font-bold px-2 py-1 rounded w-fit">
+                Save £200
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Footer -->
@@ -1279,9 +1270,3 @@
         </div>
       </div>    
   </div>
-</div>
-</div>
-</div>
-   <div > 
-      <app-footer1></app-footer1>
-    </div>
