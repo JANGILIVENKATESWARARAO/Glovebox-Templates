@@ -1,47 +1,51 @@
-
-<div class="bg-[#F8FAFC] p-[7%]  py-4 ">
+<div class="bg-[#F8FAFC] p-[7%]  py-2">
     <div class="grid grid-cols-1 w-full ">
         <!-- Single Card with content and map -->
         <div class="flex flex-col bg-[#FFFFFF] rounded-[2px] py-[8px] pr-10 pl-4 ">
-            <button class="absolute  right-4 pt-[20px] mr-[80px]">
+            <!-- <button class="absolute right-[-35px]  top-2  ">
                 <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
-            </button>
+            </button>  -->
 
             <!-- Inner flex to align content and map side by side -->
-            <div class="flex flex-col lg:flex-row gap-12">
+            <div class="flex flex-col lg:flex-row gap-12 relative">  
+                  <button class=" absolute right-[-35px]  top-2  ">
+                    
+                        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+                    </button>
+                    
                 <!-- Left Content -->
-                <div class="flex flex-col  flex-1">
-                    <span class="text-[20px] font-bold">Parkway Volkswagen Leicester</span>
+                <div class="flex flex-col  flex-1 ">
+                    <span class="text-[20px]  2xl:text-[40px]  font-bold">Parkway Volkswagen Leicester</span>
 
                     <!-- Rating + Reviews -->
                     <div class="flex items-center gap-1">
                         <span class="flex items-center gap-[6px] bg-[#FFF8DE] rounded-[2px] font-semibold text-[16px] leading-[120%] h-[27px] w-[52px]">
-                            <img src="Logoes/Star.png" class="w-[13.35px] h-[12.75px] mb-[3px] ml-[3px]" alt="star"> 4.5
+                            <img src="Logoes/Star.png" class="w-[13.35px] h-[12.75px]  mb-[3px] ml-[3px]" alt="star"> 4.5
                         </span>
-                        <span class="text-[16px]  ml-[10px]">Reviews <span class="font-semibold">1002</span></span>
+                        <span class="text-[16px]  ml-[10px]">Reviews <span class="font-semibold text-[16px] ">1002</span></span>
                     </div>
 
                     <!-- Info Row -->
                     <div class="flex items-center gap-6 p-2 text-sm mt-[20px]">
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
-                            <img src="Logoes/u_phone-alt1.png" alt="Phone" class="w-4 h-4">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
+                            <img src="Logoes/u_phone-alt1.png" alt="Phone" class="w-4 h-4 ">
                             01332 268800
                         </span>
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
                             <img src="Logoes/Mail.png" alt="Email" class="w-4 h-4">
                             info&#64;parkway.co.uk
                         </span> 
                     </div>
 
                     <div class="flex items-center p-2 text-sm">
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
                             <img src="Logoes/Vector-location.png" alt="Location" class="w-4 h-4">
                             Locomotive Way Pride Park Derby DE24 8PU
                         </span>
                     </div>
 
                     <!-- Button Box -->
-                    <div class="flex gap-4 w-full mt-[40px]">
+                    <div class="flex gap-4 w-full mt-[40px] text-16px 2xl:text-[20px]">
                         <button class="flex justify-center items-center w-[156px] min-w-[150px] h-[50px] bg-[#052B6B] text-white font-semibold rounded-[2px] px-3 py-[17px]">
                             Make Enquiry
                         </button>
@@ -52,13 +56,15 @@
                 </div>
 
                 <!-- Right Map Image -->
-                <div class="flex justify-center items-center  w-full ">
-                    <!-- <img src="Logoes/map1.jpg" alt="Map" class="w-full  rounded-[2px] object-cover "> -->
+                <div class=" relative justify-center items-center  w-full ">
+                    <!-- <button class="absolute  right-[-35px]  top-2  ">
+                        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+                    </button> -->
                 </div>
             </div>
         </div>
     </div>
-</div> 
+</div>
 
 
 
@@ -73,9 +79,9 @@
     <div class="grid grid-cols-1 w-full ">
         <!-- Single Card with content and map -->
         <div class="flex flex-col  bg-[#FFFFFF] rounded-[2px] p-4 py-[8px] pr-10 pl-4 ">
-            <button class="absolute  right-2 mr-[85px]">
+            <!-- <button class="absolute  right-2 mr-[85px]">
                 <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
-            </button>
+            </button> -->
 
             <!-- Inner flex to align content and map side by side -->
             <div class="flex flex-col lg:flex-row gap-12">
@@ -155,14 +161,17 @@
 <div class="relative w-full rounded-[24px]">
   <!-- Map wrapper must be relative -->
   <div class="relative w-full">
-    <img src="Logoes/map-3.jpg" alt="Map" class="w-full rounded-[2px] object-cover" />
+    <img src="Logoes/map-3.jpg" alt="Map" class="w-full h-[500px] rounded-[2px] object-cover" />
+    <button class="absolute  right-[-35px]  top-2  ">
+        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+    </button>
 
     <!-- Overlay reviews inside map -->
-    <div class="absolute bottom-2 left-2 right-2 rounded-[2px] p-2 bg-white shadow-md flex flex-col">
+    <div class="absolute bottom-[3%] left-2 right-2 rounded-[2px] p-2 bg-white shadow-md flex flex-col">
       <div class="flex gap-2 overflow-hidden w-full ">
         
         <!-- Card 1 -->
-        <div class="flex flex-col w-full sm:w-[292px] bg-[#F6F7F9] rounded-[8px] p-2 gap-1 h-[103px]">
+        <div class="flex flex-col w-full  bg-[#F6F7F9] rounded-[8px] p-2 gap-1 h-[103px]">
           <span class="font-[Figtree] font-semibold text-[16px] leading-[100%] flex items-center justify-between">
             Jenny Wilson
             <span class="flex items-center gap-1 text-[16px] font-semibold">
@@ -175,7 +184,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="flex flex-col w-full sm:w-[292px] bg-[#F6F7F9] rounded-[8px] p-2 gap-1 h-[103px]">
+        <div class="flex flex-col w-full  bg-[#F6F7F9] rounded-[8px] p-2 gap-1 h-[103px]">
           <span class="font-[Figtree] font-semibold text-[16px] leading-[100%] flex items-center justify-between">
             Jenny Wilson
             <span class="flex items-center gap-1 text-[16px] font-semibold">
@@ -188,7 +197,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="relative flex flex-col w-full sm:w-[292px] bg-[#F6F7F9] rounded-[8px] p-2 gap-1 h-[103px]">
+        <div class="relative flex flex-col w-full  bg-[#F6F7F9] rounded-[8px] p-2 gap-1 h-[103px]">
           <span class="font-[Figtree] font-semibold text-[16px] leading-[100%] flex items-center justify-between">
             Jenny Wilson
             <span class="flex items-center gap-1 text-[16px] font-semibold">
@@ -223,50 +232,54 @@
 
 
 
-
-<div class="bg-[#F8FAFC] p-[7%]  py-2 ">
+<div class="bg-[#F8FAFC] p-[7%]  py-2">
     <div class="grid grid-cols-1 w-full ">
         <!-- Single Card with content and map -->
         <div class="flex flex-col bg-[#FFFFFF] rounded-[2px] py-[8px] pr-10 pl-4 ">
-            <button class="absolute  right-4 pt-[20px] mr-[80px]">
+            <!-- <button class="absolute right-[-35px]  top-2  ">
                 <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
-            </button>
+            </button>  -->
 
             <!-- Inner flex to align content and map side by side -->
-            <div class="flex flex-col lg:flex-row gap-12">
+            <div class="flex flex-col lg:flex-row gap-12 relative">  
+                  <button class=" absolute right-[-35px]  top-2  ">
+                    
+                        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+                    </button>
+                    
                 <!-- Left Content -->
-                <div class="flex flex-col  flex-1">
-                    <span class="text-[20px] font-bold">Parkway Volkswagen Leicester</span>
+                <div class="flex flex-col  flex-1 ">
+                    <span class="text-[20px]  2xl:text-[40px]  font-bold">Parkway Volkswagen Leicester</span>
 
                     <!-- Rating + Reviews -->
                     <div class="flex items-center gap-1">
                         <span class="flex items-center gap-[6px] bg-[#FFF8DE] rounded-[2px] font-semibold text-[16px] leading-[120%] h-[27px] w-[52px]">
-                            <img src="Logoes/Star.png" class="w-[13.35px] h-[12.75px] mb-[3px] ml-[3px]" alt="star"> 4.5
+                            <img src="Logoes/Star.png" class="w-[13.35px] h-[12.75px]  mb-[3px] ml-[3px]" alt="star"> 4.5
                         </span>
-                        <span class="text-[16px]  ml-[10px]">Reviews <span class="font-semibold">1002</span></span>
+                        <span class="text-[16px]  ml-[10px]">Reviews <span class="font-semibold text-[16px] ">1002</span></span>
                     </div>
 
                     <!-- Info Row -->
                     <div class="flex items-center gap-6 p-2 text-sm mt-[20px]">
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
-                            <img src="Logoes/u_phone-alt1.png" alt="Phone" class="w-4 h-4">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
+                            <img src="Logoes/u_phone-alt1.png" alt="Phone" class="w-4 h-4 ">
                             01332 268800
                         </span>
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
                             <img src="Logoes/Mail.png" alt="Email" class="w-4 h-4">
                             info&#64;parkway.co.uk
                         </span> 
                     </div>
 
                     <div class="flex items-center p-2 text-sm">
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
                             <img src="Logoes/Vector-location.png" alt="Location" class="w-4 h-4">
                             Locomotive Way Pride Park Derby DE24 8PU
                         </span>
                     </div>
 
                     <!-- Button Box -->
-                    <div class="flex gap-4 w-full mt-[40px]">
+                    <div class="flex gap-4 w-full mt-[40px] text-16px 2xl:text-[20px]">
                         <button class="flex justify-center items-center w-[156px] min-w-[150px] h-[50px] bg-[#052B6B] text-white font-semibold rounded-[2px] px-3 py-[17px]">
                             Make Enquiry
                         </button>
@@ -277,13 +290,15 @@
                 </div>
 
                 <!-- Right Map Image -->
-                <div class="flex justify-center items-center  w-full ">
-                    <!-- <img src="Logoes/map1.jpg" alt="Map" class="w-full  rounded-[2px] object-cover "> -->
+                <div class=" relative justify-center items-center  w-full ">
+                    <!-- <button class="absolute  right-[-35px]  top-2  ">
+                        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+                    </button> -->
                 </div>
             </div>
         </div>
     </div>
-</div> 
+</div>
 
 
 
@@ -291,49 +306,54 @@
 
 
 
-<div class="bg-[#F8FAFC] p-[7%]  py-2 ">
+<div class="bg-[#F8FAFC] p-[7%]  py-2">
     <div class="grid grid-cols-1 w-full ">
         <!-- Single Card with content and map -->
         <div class="flex flex-col bg-[#FFFFFF] rounded-[2px] py-[8px] pr-10 pl-4 ">
-            <button class="absolute  right-4 pt-[20px] mr-[80px]">
+            <!-- <button class="absolute right-[-35px]  top-2  ">
                 <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
-            </button>
+            </button>  -->
 
             <!-- Inner flex to align content and map side by side -->
-            <div class="flex flex-col lg:flex-row gap-12">
+            <div class="flex flex-col lg:flex-row gap-12 relative">  
+                  <button class=" absolute right-[-35px]  top-2  ">
+                    
+                        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+                    </button>
+                    
                 <!-- Left Content -->
-                <div class="flex flex-col  flex-1">
-                    <span class="text-[20px] font-bold">Parkway Volkswagen Leicester</span>
+                <div class="flex flex-col  flex-1 ">
+                    <span class="text-[20px]  2xl:text-[40px]  font-bold">Parkway Volkswagen Leicester</span>
 
                     <!-- Rating + Reviews -->
                     <div class="flex items-center gap-1">
                         <span class="flex items-center gap-[6px] bg-[#FFF8DE] rounded-[2px] font-semibold text-[16px] leading-[120%] h-[27px] w-[52px]">
-                            <img src="Logoes/Star.png" class="w-[13.35px] h-[12.75px] mb-[3px] ml-[3px]" alt="star"> 4.5
+                            <img src="Logoes/Star.png" class="w-[13.35px] h-[12.75px]  mb-[3px] ml-[3px]" alt="star"> 4.5
                         </span>
-                        <span class="text-[16px]  ml-[10px]">Reviews <span class="font-semibold">1002</span></span>
+                        <span class="text-[16px]  ml-[10px]">Reviews <span class="font-semibold text-[16px] ">1002</span></span>
                     </div>
 
                     <!-- Info Row -->
                     <div class="flex items-center gap-6 p-2 text-sm mt-[20px]">
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
-                            <img src="Logoes/u_phone-alt1.png" alt="Phone" class="w-4 h-4">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
+                            <img src="Logoes/u_phone-alt1.png" alt="Phone" class="w-4 h-4 ">
                             01332 268800
                         </span>
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
                             <img src="Logoes/Mail.png" alt="Email" class="w-4 h-4">
                             info&#64;parkway.co.uk
                         </span> 
                     </div>
 
                     <div class="flex items-center p-2 text-sm">
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
                             <img src="Logoes/Vector-location.png" alt="Location" class="w-4 h-4">
                             Locomotive Way Pride Park Derby DE24 8PU
                         </span>
                     </div>
 
                     <!-- Button Box -->
-                    <div class="flex gap-4 w-full mt-[40px]">
+                    <div class="flex gap-4 w-full mt-[40px] text-16px 2xl:text-[20px]">
                         <button class="flex justify-center items-center w-[156px] min-w-[150px] h-[50px] bg-[#052B6B] text-white font-semibold rounded-[2px] px-3 py-[17px]">
                             Make Enquiry
                         </button>
@@ -344,62 +364,69 @@
                 </div>
 
                 <!-- Right Map Image -->
-                <div class="flex justify-center items-center  w-full ">
-                    <!-- <img src="Logoes/map1.jpg" alt="Map" class="w-full  rounded-[2px] object-cover "> -->
+                <div class=" relative justify-center items-center  w-full ">
+                    <!-- <button class="absolute  right-[-35px]  top-2  ">
+                        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+                    </button> -->
                 </div>
             </div>
         </div>
     </div>
-</div> 
+</div>
 
 
 
 
 
 
-<div class="bg-[#F8FAFC] p-[7%]  py-2 ">
+<div class="bg-[#F8FAFC] p-[7%]  py-2">
     <div class="grid grid-cols-1 w-full ">
         <!-- Single Card with content and map -->
         <div class="flex flex-col bg-[#FFFFFF] rounded-[2px] py-[8px] pr-10 pl-4 ">
-            <button class="absolute  right-4 pt-[20px] mr-[80px]">
+            <!-- <button class="absolute right-[-35px]  top-2  ">
                 <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
-            </button>
+            </button>  -->
 
             <!-- Inner flex to align content and map side by side -->
-            <div class="flex flex-col lg:flex-row gap-12">
+            <div class="flex flex-col lg:flex-row gap-12 relative">  
+                  <button class=" absolute right-[-35px]  top-2  ">
+                    
+                        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+                    </button>
+                    
                 <!-- Left Content -->
-                <div class="flex flex-col  flex-1">
-                    <span class="text-[20px] font-bold">Parkway Volkswagen Leicester</span>
+                <div class="flex flex-col  flex-1 ">
+                    <span class="text-[20px]  2xl:text-[40px]  font-bold">Parkway Volkswagen Leicester</span>
 
                     <!-- Rating + Reviews -->
                     <div class="flex items-center gap-1">
                         <span class="flex items-center gap-[6px] bg-[#FFF8DE] rounded-[2px] font-semibold text-[16px] leading-[120%] h-[27px] w-[52px]">
-                            <img src="Logoes/Star.png" class="w-[13.35px] h-[12.75px] mb-[3px] ml-[3px]" alt="star"> 4.5
+                            <img src="Logoes/Star.png" class="w-[13.35px] h-[12.75px]  mb-[3px] ml-[3px]" alt="star"> 4.5
                         </span>
-                        <span class="text-[16px]  ml-[10px]">Reviews <span class="font-semibold">1002</span></span>
+                        <span class="text-[16px]  ml-[10px]">Reviews <span class="font-semibold text-[16px] ">1002</span></span>
                     </div>
 
                     <!-- Info Row -->
                     <div class="flex items-center gap-6 p-2 text-sm mt-[20px]">
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
-                            <img src="Logoes/u_phone-alt1.png" alt="Phone" class="w-4 h-4">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
+                            <img src="Logoes/u_phone-alt1.png" alt="Phone" class="w-4 h-4 ">
                             01332 268800
                         </span>
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
                             <img src="Logoes/Mail.png" alt="Email" class="w-4 h-4">
                             info&#64;parkway.co.uk
                         </span> 
                     </div>
 
                     <div class="flex items-center p-2 text-sm">
-                        <span class="flex items-center gap-2 font-semibold text-[14px]">
+                        <span class="flex items-center gap-2 font-semibold text-[14px] ">
                             <img src="Logoes/Vector-location.png" alt="Location" class="w-4 h-4">
                             Locomotive Way Pride Park Derby DE24 8PU
                         </span>
                     </div>
 
                     <!-- Button Box -->
-                    <div class="flex gap-4 w-full mt-[40px]">
+                    <div class="flex gap-4 w-full mt-[40px] text-16px 2xl:text-[20px]">
                         <button class="flex justify-center items-center w-[156px] min-w-[150px] h-[50px] bg-[#052B6B] text-white font-semibold rounded-[2px] px-3 py-[17px]">
                             Make Enquiry
                         </button>
@@ -410,13 +437,15 @@
                 </div>
 
                 <!-- Right Map Image -->
-                <div class="flex justify-center items-center  w-full ">
-                    <!-- <img src="Logoes/map1.jpg" alt="Map" class="w-full  rounded-[2px] object-cover "> -->
+                <div class=" relative justify-center items-center  w-full ">
+                    <!-- <button class="absolute  right-[-35px]  top-2  ">
+                        <img src="Logoes/up-arrow.png" alt="Up" class="w-[32px] h-[32px] ">
+                    </button> -->
                 </div>
             </div>
         </div>
     </div>
-</div> 
+</div>
 
 
 
