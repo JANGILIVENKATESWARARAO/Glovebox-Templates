@@ -82,7 +82,7 @@ import { Template15Component } from './template-15/template-15.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,Landingpage1Component,Header3Component,HeaderComponent,Landingpage20Component,Template15Component,Landingpage2Component,NewVehicleOffersComponent,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage13Component,Landingpage15Component,Landingpage22Component, Landingpage23Component,Landingpage25Component ],
+  imports: [RouterOutlet,Landingpage1Component,Header3Component,HeaderComponent,Header2Component,Landingpage20Component,Template15Component,Landingpage2Component,NewVehicleOffersComponent,Landingpage3Component,Landingpage4Component,Landingpage5Component,Landingpage6Component,Landingpage7Component,EnquiryComponent,Landingpage8Component,Landingpage9Component,Landingpage10Component,Landingpage13Component,Landingpage15Component,Landingpage22Component, Landingpage23Component,Landingpage25Component ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
